@@ -3,187 +3,253 @@
     "097f1bb90886bd9e05de953e2efd42f29f6adcc237c22704f39ce00222c053e9": {
       "0": {
         "filename": "Company.code",
-        "line": 364
+        "line": 354
       },
       "16": {
         "filename": "Company.code",
-        "line": 365
+        "line": 355
       },
       "24": {
         "filename": "Company.code",
-        "line": 366
+        "line": 356
       },
       "40": {
         "filename": "Company.code",
-        "line": 367
+        "line": 357
       },
       "56": {
         "filename": "Company.code",
-        "line": 368
+        "line": 358
       },
       "72": {
         "filename": "Company.code",
-        "line": 412
+        "line": 402
       }
     },
     "0bda4f123113f7c1ad1d71ca08011d3713cc6d3f9ae6aeca23c0ef53731238c7": {
       "0": {
         "filename": "Company.code",
-        "line": 417
+        "line": 407
       },
       "16": {
         "filename": "Company.code",
-        "line": 418
+        "line": 408
       },
       "32": {
         "filename": "Company.code",
-        "line": 419
+        "line": 409
       },
       "48": {
         "filename": "Company.code",
-        "line": 420
+        "line": 410
       },
       "64": {
         "filename": "Company.code",
-        "line": 421
+        "line": 411
       },
       "80": {
         "filename": "Company.code",
-        "line": 422
+        "line": 412
       },
       "96": {
         "filename": "Company.code",
-        "line": 423
+        "line": 413
       },
       "112": {
         "filename": "Company.code",
-        "line": 424
+        "line": 414
       },
       "120": {
         "filename": "Company.code",
-        "line": 425
+        "line": 415
       },
       "136": {
         "filename": "Company.code",
-        "line": 426
+        "line": 416
       },
       "152": {
         "filename": "Company.code",
-        "line": 427
+        "line": 417
       },
       "168": {
         "filename": "Company.code",
-        "line": 428
+        "line": 418
       },
       "184": {
         "filename": "Company.code",
-        "line": 429
+        "line": 419
       },
       "200": {
         "filename": "Company.code",
-        "line": 430
+        "line": 420
       },
       "208": {
         "filename": "Company.code",
-        "line": 431
+        "line": 421
       },
       "216": {
         "filename": "Company.code",
-        "line": 432
+        "line": 422
       },
       "224": {
         "filename": "Company.code",
-        "line": 433
+        "line": 423
       },
       "240": {
         "filename": "Company.code",
-        "line": 434
+        "line": 424
       },
       "256": {
         "filename": "Company.code",
-        "line": 435
+        "line": 425
       },
       "264": {
         "filename": "Company.code",
-        "line": 436
+        "line": 426
       },
       "272": {
         "filename": "Company.code",
-        "line": 437
+        "line": 427
       }
     },
     "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
       "0": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "8": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "24": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "32": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "40": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "56": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "64": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "72": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "88": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "96": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "104": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "120": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "128": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "136": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "152": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "168": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "184": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "192": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
+      }
+    },
+    "20735146af37b828b2a6cf09b596e832a6e1b3ed72c32a0f7dedf00d2ed0ba54": {
+      "0": {
+        "filename": "Company.code",
+        "line": 518
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 519
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 520
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 521
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 524
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 525
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 526
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 527
+      },
+      "152": {
+        "filename": "Company.code",
+        "line": 530
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 531
+      },
+      "208": {
+        "filename": "Company.code",
+        "line": 532
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 533
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 536
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 537
+      },
+      "288": {
+        "filename": "Company.code",
+        "line": 538
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 539
       }
     },
     "24aec79961b79800fb604eae70e097656b1773a4652b9e0190352beb241f8ac9": {
@@ -213,7 +279,7 @@
       },
       "88": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 41
+        "line": 35
       },
       "96": {
         "filename": "Company.code",
@@ -232,535 +298,7 @@
         "line": 40
       }
     },
-    "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
-      "0": {
-        "filename": "Company.code",
-        "line": 389
-      }
-    },
-    "39fb1229582f34c9a7d675c0723bf010bc21944c86289045d6a80384e230fe1e": {
-      "0": {
-        "filename": "Company.code",
-        "line": 369
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 370
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 371
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 372
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 373
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 374
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 375
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 376
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 377
-      },
-      "104": {
-        "filename": "Company.code",
-        "line": 378
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 383
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 384
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 385
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 386
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 387
-      },
-      "176": {
-        "filename": "Company.code",
-        "line": 388
-      },
-      "192": {
-        "filename": "Company.code",
-        "line": 392
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 393
-      },
-      "208": {
-        "filename": "Company.code",
-        "line": 394
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 395
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 396
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 397
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 398
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 399
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 400
-      },
-      "312": {
-        "filename": "Company.code",
-        "line": 401
-      },
-      "328": {
-        "filename": "Company.code",
-        "line": 402
-      },
-      "344": {
-        "filename": "Company.code",
-        "line": 403
-      },
-      "368": {
-        "filename": "Company.code",
-        "line": 404
-      },
-      "384": {
-        "filename": "Company.code",
-        "line": 405
-      },
-      "392": {
-        "filename": "Company.code",
-        "line": 406
-      },
-      "408": {
-        "filename": "Company.code",
-        "line": 407
-      },
-      "456": {
-        "filename": "Company.code",
-        "line": 408
-      },
-      "472": {
-        "filename": "Company.code",
-        "line": 409
-      },
-      "496": {
-        "filename": "Company.code",
-        "line": 410
-      }
-    },
-    "3abe7fed8e2c7070c78dc8276bdd1fde511fc3cbf9fe2b391175d32610f81654": {
-      "0": {
-        "filename": "Company.code",
-        "line": 188
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 189
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 190
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 191
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 192
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 193
-      },
-      "88": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "96": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "104": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "112": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "120": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "128": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "136": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "152": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 207
-      },
-      "176": {
-        "filename": "Company.code",
-        "line": 210
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 211
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 214
-      }
-    },
-    "3c06c60a0248a90ca22113d36bed1d333c1d655d210881db4115cf936ba73763": {
-      "0": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 54
-      },
-      "8": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 54
-      },
-      "24": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 54
-      },
-      "40": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 54
-      },
-      "48": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 54
-      },
-      "64": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 54
-      }
-    },
-    "41b84cb02a3723160a966b50a6c14be068857c602de4d66912579bf50b31b62d": {
-      "0": {
-        "filename": "Company.code",
-        "line": 456
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 457
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 458
-      },
-      "40": {
-        "filename": "Company.code",
-        "line": 459
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 460
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 461
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 462
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 463
-      },
-      "104": {
-        "filename": "Company.code",
-        "line": 464
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 465
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 466
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 467
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 468
-      },
-      "176": {
-        "filename": "Company.code",
-        "line": 469
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 470
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 471
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 475
-      },
-      "224": {
-        "filename": "Company.code",
-        "line": 476
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 477
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 478
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 479
-      },
-      "288": {
-        "filename": "Company.code",
-        "line": 483
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 484
-      },
-      "312": {
-        "filename": "Company.code",
-        "line": 487
-      }
-    },
-    "42b6548ebf8b52467d139c3400878c5aac130ce94ad90c6b796fe668a204ef3f": {
-      "0": {
-        "filename": "Company.code",
-        "line": 528
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 529
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 530
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 531
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 534
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 535
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 536
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 537
-      },
-      "152": {
-        "filename": "Company.code",
-        "line": 540
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 541
-      },
-      "208": {
-        "filename": "Company.code",
-        "line": 542
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 543
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 546
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 547
-      },
-      "288": {
-        "filename": "Company.code",
-        "line": 548
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 549
-      }
-    },
-    "5463eb0f8d6ba6bb905a5969aa3fe48b7442c1290c69e5247ccf09c68bfa903b": {
-      "0": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "16": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "24": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "40": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "48": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "56": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "72": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "88": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "96": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "104": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "112": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "128": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "144": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "160": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "168": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "176": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "192": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "208": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "216": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "232": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "240": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "256": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "264": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "288": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "304": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "320": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      },
-      "336": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 58
-      }
-    },
-    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
-      "0": {
-        "filename": "Company.code",
-        "line": 497
-      }
-    },
-    "6501109d3812078f98ea5105b064de25ce57d3e2135777b32f0fe8e34944c10d": {
+    "2b8a3368af65e97115922be82b9f9e29890c104ba469e4bc2828fbc9001c3701": {
       "0": {
         "filename": "<entry-selector>",
         "line": 1
@@ -806,6 +344,334 @@
         "line": 11
       }
     },
+    "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
+      "0": {
+        "filename": "Company.code",
+        "line": 379
+      }
+    },
+    "39fb1229582f34c9a7d675c0723bf010bc21944c86289045d6a80384e230fe1e": {
+      "0": {
+        "filename": "Company.code",
+        "line": 359
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 360
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 361
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 362
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 363
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 364
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 365
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 366
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 367
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 368
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 373
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 374
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 375
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 376
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 377
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 378
+      },
+      "192": {
+        "filename": "Company.code",
+        "line": 382
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 383
+      },
+      "208": {
+        "filename": "Company.code",
+        "line": 384
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 385
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 386
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 387
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 388
+      },
+      "280": {
+        "filename": "Company.code",
+        "line": 389
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 390
+      },
+      "312": {
+        "filename": "Company.code",
+        "line": 391
+      },
+      "328": {
+        "filename": "Company.code",
+        "line": 392
+      },
+      "344": {
+        "filename": "Company.code",
+        "line": 393
+      },
+      "368": {
+        "filename": "Company.code",
+        "line": 394
+      },
+      "384": {
+        "filename": "Company.code",
+        "line": 395
+      },
+      "392": {
+        "filename": "Company.code",
+        "line": 396
+      },
+      "408": {
+        "filename": "Company.code",
+        "line": 397
+      },
+      "456": {
+        "filename": "Company.code",
+        "line": 398
+      },
+      "472": {
+        "filename": "Company.code",
+        "line": 399
+      },
+      "496": {
+        "filename": "Company.code",
+        "line": 400
+      }
+    },
+    "3c06c60a0248a90ca22113d36bed1d333c1d655d210881db4115cf936ba73763": {
+      "0": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 48
+      },
+      "8": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 48
+      },
+      "24": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 48
+      },
+      "40": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 48
+      },
+      "48": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 48
+      },
+      "64": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 48
+      }
+    },
+    "44a66a3c53082646c27c17fe24bb10afc611f60e9dc813a0f1ad5a6fffe53193": {
+      "0": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 27
+      },
+      "16": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 27
+      },
+      "32": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 27
+      },
+      "48": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 27
+      },
+      "72": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 71
+      },
+      "120": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 71
+      },
+      "128": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 71
+      },
+      "144": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 72
+      },
+      "160": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 72
+      }
+    },
+    "5463eb0f8d6ba6bb905a5969aa3fe48b7442c1290c69e5247ccf09c68bfa903b": {
+      "0": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "16": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "24": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "40": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "48": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "56": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "72": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "88": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "96": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "104": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "112": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "128": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "144": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "160": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "168": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "176": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "192": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "208": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "216": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "232": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "240": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "256": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "264": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "288": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "304": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "320": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      },
+      "336": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 52
+      }
+    },
+    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+      "0": {
+        "filename": "Company.code",
+        "line": 487
+      }
+    },
     "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
       "0": {
         "filename": "<internal-selector>",
@@ -819,258 +685,185 @@
     "7aad93af61545edae469ac41d63f6201e8de0d38b19f0a1aa043605e0f9e0649": {
       "0": {
         "filename": "Company.code",
-        "line": 340
+        "line": 330
       },
       "16": {
         "filename": "Company.code",
-        "line": 341
+        "line": 331
       },
       "24": {
         "filename": "Company.code",
-        "line": 342
+        "line": 332
       },
       "40": {
         "filename": "Company.code",
-        "line": 343
+        "line": 333
       },
       "56": {
         "filename": "Company.code",
-        "line": 344
+        "line": 334
       },
       "72": {
         "filename": "Company.code",
-        "line": 345
+        "line": 335
       },
       "80": {
         "filename": "Company.code",
-        "line": 346
+        "line": 336
       },
       "96": {
         "filename": "Company.code",
-        "line": 347
+        "line": 337
       },
       "104": {
         "filename": "Company.code",
-        "line": 348
+        "line": 338
       },
       "112": {
         "filename": "Company.code",
-        "line": 349
+        "line": 339
       },
       "120": {
         "filename": "Company.code",
-        "line": 350
+        "line": 340
       },
       "136": {
         "filename": "Company.code",
-        "line": 351
+        "line": 341
       },
       "144": {
         "filename": "Company.code",
-        "line": 352
+        "line": 342
       },
       "160": {
         "filename": "Company.code",
-        "line": 353
+        "line": 343
       },
       "176": {
         "filename": "Company.code",
-        "line": 354
+        "line": 344
       },
       "184": {
         "filename": "Company.code",
-        "line": 355
+        "line": 345
       },
       "200": {
         "filename": "Company.code",
-        "line": 356
+        "line": 346
       },
       "216": {
         "filename": "Company.code",
-        "line": 357
+        "line": 347
       },
       "232": {
         "filename": "Company.code",
-        "line": 358
+        "line": 348
       },
       "248": {
         "filename": "Company.code",
-        "line": 359
+        "line": 349
       },
       "264": {
         "filename": "Company.code",
-        "line": 360
+        "line": 350
       },
       "280": {
         "filename": "Company.code",
-        "line": 361
+        "line": 351
       }
     },
-    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "9869c3b2afef5a50cbf3763070e633f84cfbf9fa6b5b72b766a1c4f21265b66a": {
-      "0": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 123
-      },
-      "16": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 123
-      }
-    },
-    "ab485775a44ce2823835bdbd0d450520fe8981e7f8c8fd4d6e81e73cd38467a8": {
-      "0": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 106
-      },
-      "8": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 29
-      },
-      "24": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 29
-      },
-      "40": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 29
-      },
-      "56": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 29
-      },
-      "80": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 107
-      },
-      "96": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 107
-      },
-      "104": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 107
-      },
-      "120": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 107
-      },
-      "136": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 107
-      },
-      "160": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 108
-      },
-      "208": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 108
-      },
-      "216": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 108
-      },
-      "232": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 109
-      },
-      "248": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 109
-      }
-    },
-    "b868234139c7995102ed2f8d9f33e25cd4d25be9cbb26962e0406e989ec5736d": {
+    "950eea1b852a2314d85c563e1aff544579957daac0e0eee24b43bce0400b2f7a": {
       "0": {
         "filename": "Company.code",
-        "line": 491
+        "line": 481
       },
       "16": {
         "filename": "Company.code",
-        "line": 492
+        "line": 482
       },
       "24": {
         "filename": "Company.code",
-        "line": 493
+        "line": 483
       },
       "40": {
         "filename": "Company.code",
-        "line": 494
+        "line": 484
       },
       "56": {
         "filename": "Company.code",
-        "line": 495
+        "line": 485
       },
       "72": {
         "filename": "Company.code",
-        "line": 496
+        "line": 486
       },
       "80": {
         "filename": "Company.code",
-        "line": 499
+        "line": 489
       },
       "96": {
         "filename": "Company.code",
-        "line": 500
+        "line": 490
       },
       "104": {
         "filename": "Company.code",
-        "line": 501
+        "line": 491
       },
       "120": {
         "filename": "Company.code",
-        "line": 504
+        "line": 494
       },
       "136": {
         "filename": "Company.code",
-        "line": 505
+        "line": 495
       },
       "144": {
         "filename": "Company.code",
-        "line": 506
+        "line": 496
       },
       "152": {
         "filename": "Company.code",
-        "line": 507
+        "line": 497
       },
       "168": {
         "filename": "Company.code",
-        "line": 508
+        "line": 498
       },
       "184": {
         "filename": "Company.code",
-        "line": 509
+        "line": 499
       },
       "192": {
         "filename": "Company.code",
-        "line": 510
+        "line": 500
       },
       "208": {
         "filename": "Company.code",
-        "line": 511
+        "line": 501
       },
       "216": {
         "filename": "Company.code",
-        "line": 512
+        "line": 502
       },
       "232": {
         "filename": "Company.code",
-        "line": 513
+        "line": 503
       },
       "248": {
         "filename": "Company.code",
-        "line": 514
+        "line": 504
       },
       "264": {
         "filename": "Company.code",
-        "line": 516
+        "line": 506
       },
       "272": {
         "filename": "Company.code",
-        "line": 517
+        "line": 507
       },
       "288": {
         "filename": "Company.code",
-        "line": 518
+        "line": 508
       },
       "296": {
         "filename": "stdlib.sol",
@@ -1126,601 +919,784 @@
       },
       "488": {
         "filename": "Company.code",
-        "line": 520
+        "line": 510
       },
       "504": {
         "filename": "Company.code",
-        "line": 521
+        "line": 511
       },
       "512": {
         "filename": "Company.code",
-        "line": 522
+        "line": 512
       },
       "528": {
         "filename": "Company.code",
-        "line": 525
+        "line": 515
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9869c3b2afef5a50cbf3763070e633f84cfbf9fa6b5b72b766a1c4f21265b66a": {
+      "0": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 86
+      },
+      "16": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 86
+      }
+    },
+    "b532817223c43705e456563f5f13ca54c01af02b58e8950f5d2d86408985d898": {
+      "0": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 76
+      },
+      "16": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 76
+      },
+      "32": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 76
+      },
+      "48": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 76
+      },
+      "64": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 77
+      },
+      "80": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 77
+      },
+      "96": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 77
+      },
+      "104": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 77
+      },
+      "120": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 77
+      },
+      "128": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 77
+      },
+      "144": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "160": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "168": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "328": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "336": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "344": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "352": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "368": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "384": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "392": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "400": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 78
+      },
+      "416": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "432": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "440": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "448": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "472": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "480": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "520": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "544": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "560": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "568": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
+      },
+      "584": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 82
       }
     },
     "bea608f8d0847e0f27386356d97cdc2dc865dc42a242a8342dab48a6a6e41a91": {
       "0": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 79
+        "line": 65
       },
       "16": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 80
+        "line": 66
       },
       "32": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 80
+        "line": 66
       },
       "40": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 80
+        "line": 66
       },
       "72": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 80
+        "line": 66
       },
       "88": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 80
+        "line": 66
       },
       "96": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 80
-      }
-    },
-    "c6edc0a28eebc0621d009e25399b60fc02cfafec2360119d53821e6eca8c4ba0": {
-      "0": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 113
-      },
-      "16": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 113
-      },
-      "32": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 113
-      },
-      "48": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 113
-      },
-      "64": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 114
-      },
-      "80": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 114
-      },
-      "96": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 114
-      },
-      "104": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 114
-      },
-      "120": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 114
-      },
-      "128": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 114
-      },
-      "144": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "160": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "168": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "328": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "336": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "344": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "352": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "368": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "384": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "392": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "400": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 115
-      },
-      "416": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "432": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "448": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "456": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "480": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "488": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "528": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "552": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "568": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "576": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
-      },
-      "592": {
-        "filename": "../contracts/Company/Company.tsol",
-        "line": 119
+        "line": 66
       }
     },
     "d406aeb587442633ab446eef6dcb69239088b77e72744f35ca7ddc92a014a747": {
       "0": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "8": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "24": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "32": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "48": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "96": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "104": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "120": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "128": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 42
+        "line": 36
       },
       "152": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 44
+        "line": 38
       },
       "168": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 44
+        "line": 38
       },
       "176": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 44
+        "line": 38
       },
       "192": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 46
+        "line": 40
       },
       "208": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 46
+        "line": 40
       },
       "224": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "232": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "248": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "256": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "288": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "304": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "312": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "320": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "328": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "336": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "360": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "368": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "528": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "552": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "560": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "576": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "584": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "632": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "640": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "648": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 48
+        "line": 42
       },
       "664": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "680": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "688": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "808": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "816": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "824": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "832": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "840": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "888": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "896": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "904": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "912": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "920": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "928": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "936": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "944": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "952": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 53
+        "line": 47
       },
       "968": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 54
+        "line": 48
       },
       "984": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 54
+        "line": 48
       },
       "992": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 54
+        "line": 48
       }
     },
     "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
       "0": {
         "filename": "Company.code",
-        "line": 379
+        "line": 369
+      }
+    },
+    "dda5789f4db91a4ed82b7e42844b3389ebfc466cda3b8583b5b27a767945da35": {
+      "0": {
+        "filename": "Company.code",
+        "line": 188
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 189
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 190
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 191
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 192
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 193
+      },
+      "88": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "96": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "104": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "112": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "120": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "128": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "136": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "152": {
+        "filename": "../contracts/Company/Company.tsol",
+        "line": 69
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 207
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 210
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 211
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 214
       }
     },
     "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
       "0": {
         "filename": "Company.code",
-        "line": 440
+        "line": 430
       },
       "16": {
         "filename": "Company.code",
-        "line": 441
+        "line": 431
       },
       "24": {
         "filename": "Company.code",
-        "line": 442
+        "line": 432
       },
       "40": {
         "filename": "Company.code",
-        "line": 443
+        "line": 433
       },
       "56": {
         "filename": "Company.code",
-        "line": 444
+        "line": 434
       },
       "64": {
         "filename": "Company.code",
-        "line": 445
+        "line": 435
       },
       "80": {
         "filename": "Company.code",
-        "line": 446
+        "line": 436
       },
       "88": {
         "filename": "Company.code",
-        "line": 447
+        "line": 437
       },
       "96": {
         "filename": "Company.code",
-        "line": 448
+        "line": 438
       },
       "112": {
         "filename": "Company.code",
-        "line": 449
+        "line": 439
       },
       "128": {
         "filename": "Company.code",
-        "line": 450
+        "line": 440
       },
       "136": {
         "filename": "Company.code",
-        "line": 451
+        "line": 441
       },
       "144": {
         "filename": "Company.code",
+        "line": 442
+      }
+    },
+    "f1a742f160c0a64477be9a2cd5f4de7f60a929f7efb04e804f1fe95f56993388": {
+      "0": {
+        "filename": "Company.code",
+        "line": 446
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 447
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 448
+      },
+      "40": {
+        "filename": "Company.code",
+        "line": 449
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 450
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 451
+      },
+      "80": {
+        "filename": "Company.code",
         "line": 452
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 453
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 454
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 455
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 456
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 457
+      },
+      "168": {
+        "filename": "Company.code",
+        "line": 458
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 459
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 460
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 461
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 465
+      },
+      "224": {
+        "filename": "Company.code",
+        "line": 466
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 467
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 468
+      },
+      "272": {
+        "filename": "Company.code",
+        "line": 469
+      },
+      "288": {
+        "filename": "Company.code",
+        "line": 473
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 474
+      },
+      "312": {
+        "filename": "Company.code",
+        "line": 477
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "Company.code",
-        "line": 472
+        "line": 462
       },
       "16": {
         "filename": "Company.code",
-        "line": 473
+        "line": 463
       }
     },
     "f636c10cf34dffd339fa326245aced2acdfafa02cb8e18b3c89c0c7fb0414795": {
       "0": {
         "filename": "Company.code",
-        "line": 289
+        "line": 279
       },
       "8": {
         "filename": "Company.code",
-        "line": 290
+        "line": 280
       },
       "24": {
         "filename": "Company.code",
-        "line": 291
+        "line": 281
       },
       "48": {
         "filename": "Company.code",
-        "line": 292
+        "line": 282
       },
       "64": {
         "filename": "Company.code",
-        "line": 293
+        "line": 283
       },
       "72": {
         "filename": "Company.code",
-        "line": 294
+        "line": 284
       },
       "88": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 122
+        "line": 85
       },
       "96": {
         "filename": "Company.code",
-        "line": 300
+        "line": 290
       },
       "112": {
         "filename": "Company.code",
-        "line": 303
+        "line": 293
       },
       "120": {
         "filename": "Company.code",
-        "line": 304
+        "line": 294
       },
       "136": {
         "filename": "Company.code",
-        "line": 305
+        "line": 295
       },
       "144": {
         "filename": "Company.code",
-        "line": 306
+        "line": 296
       },
       "152": {
         "filename": "Company.code",
-        "line": 307
+        "line": 297
       },
       "168": {
         "filename": "Company.code",
-        "line": 308
+        "line": 298
       },
       "184": {
         "filename": "Company.code",
-        "line": 309
+        "line": 299
       },
       "192": {
         "filename": "Company.code",
-        "line": 310
+        "line": 300
       },
       "200": {
         "filename": "Company.code",
-        "line": 311
+        "line": 301
       },
       "208": {
         "filename": "Company.code",
-        "line": 312
+        "line": 302
       },
       "232": {
         "filename": "Company.code",
-        "line": 313
+        "line": 303
       },
       "240": {
         "filename": "Company.code",
-        "line": 314
+        "line": 304
       },
       "256": {
         "filename": "Company.code",
-        "line": 315
+        "line": 305
       },
       "272": {
         "filename": "Company.code",
-        "line": 316
+        "line": 306
       },
       "288": {
         "filename": "Company.code",
-        "line": 317
+        "line": 307
       },
       "336": {
         "filename": "Company.code",
-        "line": 318
+        "line": 308
       },
       "352": {
         "filename": "Company.code",
-        "line": 319
+        "line": 309
       },
       "368": {
         "filename": "Company.code",
-        "line": 320
+        "line": 310
       },
       "376": {
         "filename": "Company.code",
-        "line": 321
+        "line": 311
       },
       "384": {
         "filename": "Company.code",
-        "line": 322
+        "line": 312
       },
       "400": {
         "filename": "Company.code",
-        "line": 324
+        "line": 314
       },
       "408": {
         "filename": "Company.code",
-        "line": 325
+        "line": 315
       },
       "416": {
         "filename": "Company.code",
-        "line": 327
+        "line": 317
       },
       "424": {
         "filename": "Company.code",
-        "line": 328
+        "line": 318
       },
       "440": {
         "filename": "Company.code",
-        "line": 331
+        "line": 321
       }
     },
     "f86ae8eb96de344d72e5605b93a7877a04c8dd7dbca0bab65ff50f7fad51b3d4": {
@@ -1754,7 +1730,7 @@
       },
       "88": {
         "filename": "../contracts/Company/Company.tsol",
-        "line": 38
+        "line": 32
       },
       "104": {
         "filename": "Company.code",

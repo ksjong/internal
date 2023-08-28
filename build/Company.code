@@ -10,7 +10,7 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/Company/Company.tsol, 38
+.loc ../contracts/Company/Company.tsol, 32
 ACCEPT
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -27,7 +27,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 41
+.loc ../contracts/Company/Company.tsol, 35
 ENDS
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -40,7 +40,7 @@ CALLREF {
 THROW 0
 
 .macro deployAccountForWorker_e1c982dc_internal_macro
-.loc ../contracts/Company/Company.tsol, 42
+.loc ../contracts/Company/Company.tsol, 36
 DEPTH
 ADDCONST -2
 PICK
@@ -50,16 +50,16 @@ ADD
 UFITS 128
 GEQ
 THROWIFNOT 101
-.loc ../contracts/Company/Company.tsol, 44
+.loc ../contracts/Company/Company.tsol, 38
 GETGLOB 10
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 46
+.loc ../contracts/Company/Company.tsol, 40
 GETGLOB 9
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 48
+.loc ../contracts/Company/Company.tsol, 42
 DUP
 HASHCU
 NEWC
@@ -101,7 +101,7 @@ STSLICECONST x345aaf9fc_
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 53
+.loc ../contracts/Company/Company.tsol, 47
 GETGLOB 9
 SWAP
 PUSHSLICE xc0000000000000000000000001
@@ -119,7 +119,7 @@ STBREFR
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 54
+.loc ../contracts/Company/Company.tsol, 48
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -136,7 +136,7 @@ SENDRAWMSG
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/Company/Company.tsol, 58
+.loc ../contracts/Company/Company.tsol, 52
 GETGLOB 2
 NEWC
 STU 256
@@ -171,11 +171,11 @@ ENDC
 CALL $getWorkerAddress_a4ab46e7_internal_macro$
 
 .macro getWorkerAddress_a4ab46e7_internal_macro
-.loc ../contracts/Company/Company.tsol, 79
+.loc ../contracts/Company/Company.tsol, 65
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 80
+.loc ../contracts/Company/Company.tsol, 66
 HASHCU
 NEWC
 STSLICECONST x801_
@@ -193,7 +193,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 106
+.loc ../contracts/Company/Company.tsol, 69
 OVER
 PUSHCONT {
 	LDREF
@@ -214,28 +214,18 @@ CALLREF {
 THROW 0
 
 .macro doWork_3b660429_internal_macro
-.loc ../contracts/Company/Company.tsol, 106
-DUP
-.loc ../contracts/Company/Company.tsol, 29
+.loc ../contracts/Company/Company.tsol, 27
 CALLREF {
 	CALL $getWorkerAddress_a4ab46e7_internal_macro$
 }
 GETGLOB 9
 SDEQ
 THROWIFNOT 1002
-.loc ../contracts/Company/Company.tsol, 107
-GETGLOB 9
-SWAP
-CALLREF {
-	CALL $getWorkerAddress_a4ab46e7_internal_macro$
-}
-SDEQ
-THROWIFNOT 1003
-.loc ../contracts/Company/Company.tsol, 108
+.loc ../contracts/Company/Company.tsol, 71
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 109
+.loc ../contracts/Company/Company.tsol, 72
 GETGLOB 9
 CALLREF {
 	CALL $workProcessing_e10c6eeb_internal_macro$
@@ -247,21 +237,21 @@ CALLREF {
 CALL $workProcessing_e10c6eeb_internal_macro$
 
 .macro workProcessing_e10c6eeb_internal_macro
-.loc ../contracts/Company/Company.tsol, 113
+.loc ../contracts/Company/Company.tsol, 76
 GETGLOB 13
 MULCONST 2
 UFITS 128
 SETGLOB 13
-.loc ../contracts/Company/Company.tsol, 114
+.loc ../contracts/Company/Company.tsol, 77
 GETGLOB 14
 GETGLOB 13
 ADD
 UFITS 128
 DUP
 SETGLOB 14
-.loc ../contracts/Company/Company.tsol, 115
+.loc ../contracts/Company/Company.tsol, 78
 GETGLOB 13
-ROT
+PUSH S2
 PUSHSLICE xc0000000000000000000000000116ba8bf
 NEWC
 STSLICE
@@ -271,9 +261,9 @@ STU 128
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 119
+.loc ../contracts/Company/Company.tsol, 82
 GETGLOB 13
-GETGLOB 9
+SWAP
 NEWC
 STSLICECONST x62_
 STSLICE
@@ -294,7 +284,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 122
+.loc ../contracts/Company/Company.tsol, 85
 ENDS
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -331,7 +321,7 @@ IFREF {
 THROW 0
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/Company/Company.tsol, 123
+.loc ../contracts/Company/Company.tsol, 86
 GETGLOB 13
 GETGLOB 14
 .loc ../contracts/Company/Company.tsol, 0

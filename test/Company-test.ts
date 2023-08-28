@@ -4,11 +4,15 @@ import { FactorySource } from "../build/factorySource";
 import { Account } from "everscale-standalone-client";
 
 let company: Contract<FactorySource["Company"]>;
-let company2: Contract<FactorySource["Company"]>;
 let signer: Signer;
 let workerAccount: Account;
-
 let companyAccount: Account;
+
+type Worker = {
+  workerAccount: Account;
+  workerContract: Contract<FactorySource["Worker"]>;
+};
+const workers: Array<Worker> = [];
 
 describe("Company Sample contract", async function () {
   before(async () => {
@@ -35,6 +39,15 @@ describe("Company Sample contract", async function () {
         value: locklift.utils.toNano(2),
       });
       company = contract;
+
+      for (let workerIndex of [1, 4]) {
+        let { account: workerOwnerAccount } = await locklift.factory.accounts.addNewAccount({
+          type: WalletTypes.EverWallet,
+          value: toNano(10),
+          publicKey: signer.publicKey,
+          nonce: locklift.utils.getRandomNonce(),
+        });
+      }
       workerAccount = await locklift.factory.accounts
         .addNewAccount({
           type: WalletTypes.EverWallet,
@@ -74,6 +87,16 @@ describe("Company Sample contract", async function () {
         }),
       );
       await workerDoWork?.beautyPrint();
+      const { traceTree: workerDoWork2 } = await locklift.tracing.trace(
+        worker.methods.startWork().send({
+          from: workerAccount.address,
+          amount: toNano(2),
+        }),
+      );
+      await workerDoWork2?.beautyPrint();
+
+      const detail = await company.methods.getDetails().call();
+      console.log(`${detail._salary.toString()}, ${detail._totalSalaryPayed.toString()}`);
     });
   });
 });

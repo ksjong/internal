@@ -23,7 +23,7 @@ contract Company {
         _;
     }
 
-    modifier onlyWorker( address _workerOwner) {
+    modifier onlyWorker(address _workerOwner) {
         require(getWorkerAddress(_workerOwner) == msg.sender, Errors.NOT_WORKER);
         _;
     }
@@ -61,13 +61,11 @@ contract Company {
     }
 
     function getWorkerAddress(address _workerOwner) internal returns (address) {
-
         TvmCell workerInitState = buildInitParams(_workerOwner);
         return address(tvm.hash(workerInitState));
     }
 
     function doWork(address _workerOwner) external onlyWorker(_workerOwner) {
-        require(msg.sender == getWorkerAddress(_workerOwner), 1003);
         tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
         workProcessing(msg.sender);
     }
@@ -75,11 +73,11 @@ contract Company {
     function workProcessing(address _worker) internal {
         salary = salary * 2;
         totalSalaryPayed += salary;
-        emit SalaryPayed(_worker, salary, totalSalaryPayed);
+        emit SalaryPayed(_worker,salary, totalSalaryPayed);
 
         //each time salary is doubled
 
-        Worker(msg.sender).receiveSalary{value: 0, flag: 128}(salary);
+        Worker(_worker).receiveSalary{value: 0, flag: 128}(salary);
     }
 
     function getDetails() external view returns (uint128 _salary, uint128 _totalSalaryPayed) {
