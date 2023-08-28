@@ -4,6 +4,7 @@ import { FactorySource } from "../build/factorySource";
 import { Account } from "everscale-standalone-client";
 
 let company: Contract<FactorySource["Company"]>;
+let company2: Contract<FactorySource["Company"]>;
 let signer: Signer;
 let workerAccount: Account;
 
@@ -50,6 +51,9 @@ describe("Company Sample contract", async function () {
           from: workerAccount.address,
           amount: toNano(2),
         }),
+        // company.methods.deployAccountForWorker().sendExternal({
+        //   publicKey: signer.publicKey,
+        // }),
       );
       await traceTree?.beautyPrint();
 

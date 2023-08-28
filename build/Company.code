@@ -10,7 +10,7 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/Company/Company.tsol, 37
+.loc ../contracts/Company/Company.tsol, 38
 ACCEPT
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -27,7 +27,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 40
+.loc ../contracts/Company/Company.tsol, 41
 ENDS
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -40,7 +40,7 @@ CALLREF {
 THROW 0
 
 .macro deployAccountForWorker_e1c982dc_internal_macro
-.loc ../contracts/Company/Company.tsol, 41
+.loc ../contracts/Company/Company.tsol, 42
 DEPTH
 ADDCONST -2
 PICK
@@ -50,16 +50,16 @@ ADD
 UFITS 128
 GEQ
 THROWIFNOT 101
-.loc ../contracts/Company/Company.tsol, 43
+.loc ../contracts/Company/Company.tsol, 44
 GETGLOB 10
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 45
+.loc ../contracts/Company/Company.tsol, 46
 GETGLOB 9
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 47
+.loc ../contracts/Company/Company.tsol, 48
 DUP
 HASHCU
 NEWC
@@ -101,7 +101,7 @@ STSLICECONST x345aaf9fc_
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 52
+.loc ../contracts/Company/Company.tsol, 53
 GETGLOB 9
 SWAP
 PUSHSLICE xc0000000000000000000000001
@@ -119,7 +119,7 @@ STBREFR
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 53
+.loc ../contracts/Company/Company.tsol, 54
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -136,7 +136,7 @@ SENDRAWMSG
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/Company/Company.tsol, 57
+.loc ../contracts/Company/Company.tsol, 58
 GETGLOB 2
 NEWC
 STU 256
@@ -171,35 +171,11 @@ ENDC
 CALL $getWorkerAddress_a4ab46e7_internal_macro$
 
 .macro getWorkerAddress_a4ab46e7_internal_macro
-.loc ../contracts/Company/Company.tsol, 69
-GETGLOB 2
-NEWC
-STU 256
-PUSHINT 0
-NEWDICT
-PUSHINT 64
-DICTUSETB
-SWAP
-PUSHINT 1
-ROT
-PUSHINT 64
-DICTUSET
-MYADDR
-PUSHINT 2
-ROT
-PUSHINT 64
-DICTUSET
-NEWC
-STDICT
-ENDC
-GETGLOB 12
-NEWC
-STSLICECONST x2_
-STOPTREF
-STOPTREF
-STZERO
-ENDC
 .loc ../contracts/Company/Company.tsol, 79
+CALLREF {
+	CALL $buildInitParams_a693fe3d_internal_macro$
+}
+.loc ../contracts/Company/Company.tsol, 80
 HASHCU
 NEWC
 STSLICECONST x801_
@@ -217,23 +193,19 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 105
+.loc ../contracts/Company/Company.tsol, 106
 OVER
 PUSHCONT {
-	LDU 256
 	LDREF
 	ENDS
 	CTOS
 }
-PUSHCONT {
-	LDU 256
-}
-IFELSE
+IF
 LDMSGADDR
 ENDS
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
-	CALL $doWork_81695f38_internal_macro$
+	CALL $doWork_3b660429_internal_macro$
 }
 DROP
 CALLREF {
@@ -241,17 +213,17 @@ CALLREF {
 }
 THROW 0
 
-.macro doWork_81695f38_internal_macro
-.loc ../contracts/Company/Company.tsol, 105
+.macro doWork_3b660429_internal_macro
+.loc ../contracts/Company/Company.tsol, 106
 DUP
-.loc ../contracts/Company/Company.tsol, 28
+.loc ../contracts/Company/Company.tsol, 29
 CALLREF {
 	CALL $getWorkerAddress_a4ab46e7_internal_macro$
 }
 GETGLOB 9
 SDEQ
 THROWIFNOT 1002
-.loc ../contracts/Company/Company.tsol, 109
+.loc ../contracts/Company/Company.tsol, 107
 GETGLOB 9
 SWAP
 CALLREF {
@@ -259,12 +231,11 @@ CALLREF {
 }
 SDEQ
 THROWIFNOT 1003
-.loc ../contracts/Company/Company.tsol, 110
-DROP
+.loc ../contracts/Company/Company.tsol, 108
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 111
+.loc ../contracts/Company/Company.tsol, 109
 GETGLOB 9
 CALLREF {
 	CALL $workProcessing_e10c6eeb_internal_macro$
@@ -276,20 +247,20 @@ CALLREF {
 CALL $workProcessing_e10c6eeb_internal_macro$
 
 .macro workProcessing_e10c6eeb_internal_macro
-.loc ../contracts/Company/Company.tsol, 115
-GETGLOB 14
+.loc ../contracts/Company/Company.tsol, 113
+GETGLOB 13
 MULCONST 2
 UFITS 128
-SETGLOB 14
-.loc ../contracts/Company/Company.tsol, 116
-GETGLOB 15
+SETGLOB 13
+.loc ../contracts/Company/Company.tsol, 114
 GETGLOB 14
+GETGLOB 13
 ADD
 UFITS 128
 DUP
-SETGLOB 15
-.loc ../contracts/Company/Company.tsol, 117
-GETGLOB 14
+SETGLOB 14
+.loc ../contracts/Company/Company.tsol, 115
+GETGLOB 13
 ROT
 PUSHSLICE xc0000000000000000000000000116ba8bf
 NEWC
@@ -300,8 +271,8 @@ STU 128
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 121
-GETGLOB 14
+.loc ../contracts/Company/Company.tsol, 119
+GETGLOB 13
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -323,7 +294,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 124
+.loc ../contracts/Company/Company.tsol, 122
 ENDS
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -360,9 +331,9 @@ IFREF {
 THROW 0
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/Company/Company.tsol, 125
+.loc ../contracts/Company/Company.tsol, 123
+GETGLOB 13
 GETGLOB 14
-GETGLOB 15
 .loc ../contracts/Company/Company.tsol, 0
 
 .macro c4_to_c7
@@ -378,11 +349,9 @@ ENDS
 CTOS
 LDMSGADDR
 LDREF
-LDDICT
 LDU 128
 LDU 128
 ENDS
-SETGLOB 15
 SETGLOB 14
 SETGLOB 13
 SETGLOB 12
@@ -421,10 +390,8 @@ PUSHCONT {
 		}
 	}
 	IFNOT
-	NEWDICT
 	PUSHINT 0
 	DUP
-	SETGLOB 15
 	SETGLOB 14
 	SETGLOB 13
 	SETGLOB 12
@@ -440,14 +407,13 @@ PUSHCONT {
 	PUSHINT 1000000000
 	SETGLOB 10
 	PUSHINT 132
-	SETGLOB 14
+	SETGLOB 13
 }
 IFREFELSE {
 	CALL $c4_to_c7$
 }
 
 .macro c7_to_c4
-GETGLOB 15
 GETGLOB 14
 GETGLOB 13
 GETGLOB 12
@@ -460,11 +426,10 @@ STU 256
 STU 64
 STONE
 STU 128
-ROLLREV 5
+ROLLREV 4
 NEWC
 STSLICE
 STREF
-STDICT
 STU 128
 STU 128
 STBREFR
@@ -561,16 +526,16 @@ THROW 60
 
 .macro public_function_selector
 DUP
+PUSHINT 66166333
+EQUAL
+IFJMPREF {
+	CALL $doWork$
+}
+DUP
 PUSHINT 631169811
 EQUAL
 IFJMPREF {
 	CALL $deployAccountForWorker$
-}
-DUP
-PUSHINT 727762795
-EQUAL
-IFJMPREF {
-	CALL $doWork$
 }
 DUP
 PUSHINT 1756716863

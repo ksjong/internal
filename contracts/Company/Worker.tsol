@@ -22,24 +22,16 @@ contract Worker {
         _;
     }
     constructor() public {
-        tvm.accept();
+//        tvm.accept();
     }
 
-//    function acceptRegistration() public onlyCompany {
-//        tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
-//        isRegistered = true;
-//        Company(company).finishWorkerRegistration{
-//            value: 0,
-//            flag: 128
-//        }(tvm.pubkey(), owner);
-//    }
 
     function startWork() public onlyOwner {
         tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
         Company(company).doWork{
             value: 0,
             flag: 128
-        }(tvm.pubkey(), owner);
+        }( owner);
     }
 
     function receiveSalary(uint128 _salary) external onlyCompany {

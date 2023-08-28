@@ -10,8 +10,6 @@ contract Company {
     address static owner;
     TvmCell static workerCode;
 
-    mapping(address => bool) workers;
-
     uint128 salary = 132;
 
     uint128 totalSalaryPayed;
@@ -29,10 +27,6 @@ contract Company {
         require(getWorkerAddress(_workerOwner) == msg.sender, Errors.NOT_WORKER);
         _;
     }
-//    modifier onlyRegisteredWorker() {
-//        require(workers.exists(msg.sender), Errors.WORKER_NOT_REGISTERED);
-//        _;
-//    }
 
     constructor() public {
         tvm.accept();
@@ -67,46 +61,12 @@ contract Company {
     }
 
     function getWorkerAddress(address _workerOwner) internal returns (address) {
-        TvmCell workerInitState = tvm.buildStateInit({
-            contr: Worker,
-            varInit: {
-                owner: _workerOwner,
-                company: address(this)
-            },
-            pubkey: tvm.pubkey(),
-            code: workerCode
-        });
 
+        TvmCell workerInitState = buildInitParams(_workerOwner);
         return address(tvm.hash(workerInitState));
     }
 
-//    function registerWorker(address _worker) public onlyOwner {
-//        tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
-//        Worker(_worker).acceptRegistration{value: 0, flag: 128}();
-//    }
-
-//    function finishWorkerRegistration(
-//        uint256 _workerPubKey,
-//        address _workerOwner
-//    ) external onlyWorker(_workerPubKey, _workerOwner) {
-//        tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
-//        addWorkerToStore(msg.sender, _workerOwner);
-//    }
-
-//    function addWorkerToStore(
-//        address _worker,
-//        address _workerOwner
-//    ) internal {
-//        workers[msg.sender] = true;
-//        emit NewWorkerRegistered(_worker, _workerOwner);
-//        owner.transfer({value: 0, flag: 128});
-//    }
-
-
-    function doWork(
-        uint256 _workerPubKey,
-        address _workerOwner
-    ) external onlyWorker(_workerOwner) {
+    function doWork(address _workerOwner) external onlyWorker(_workerOwner) {
         require(msg.sender == getWorkerAddress(_workerOwner), 1003);
         tvm.rawReserve(Gas.MIN_CONTRACT_BALANCE, 0);
         workProcessing(msg.sender);

@@ -20,7 +20,6 @@
 		{
 			"name": "doWork",
 			"inputs": [
-				{"name":"_workerPubKey","type":"uint256"},
 				{"name":"_workerOwner","type":"address"}
 			],
 			"outputs": [
@@ -77,7 +76,6 @@
 		{"name":"MIN_BALANCE","type":"uint128"},
 		{"name":"owner","type":"address"},
 		{"name":"workerCode","type":"cell"},
-		{"name":"workers","type":"map(address,bool)"},
 		{"name":"salary","type":"uint128"},
 		{"name":"totalSalaryPayed","type":"uint128"}
 	]
