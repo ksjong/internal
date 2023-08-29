@@ -171,11 +171,11 @@ ENDC
 CALL $getWorkerAddress_a4ab46e7_internal_macro$
 
 .macro getWorkerAddress_a4ab46e7_internal_macro
-.loc ../contracts/Company/Company.tsol, 65
+.loc ../contracts/Company/Company.tsol, 64
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/Company/Company.tsol, 66
+.loc ../contracts/Company/Company.tsol, 65
 HASHCU
 NEWC
 STSLICECONST x801_
@@ -193,7 +193,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 69
+.loc ../contracts/Company/Company.tsol, 68
 OVER
 PUSHCONT {
 	LDREF
@@ -221,11 +221,11 @@ CALLREF {
 GETGLOB 9
 SDEQ
 THROWIFNOT 1002
-.loc ../contracts/Company/Company.tsol, 71
+.loc ../contracts/Company/Company.tsol, 69
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/Company/Company.tsol, 72
+.loc ../contracts/Company/Company.tsol, 70
 GETGLOB 9
 CALLREF {
 	CALL $workProcessing_e10c6eeb_internal_macro$
@@ -237,19 +237,19 @@ CALLREF {
 CALL $workProcessing_e10c6eeb_internal_macro$
 
 .macro workProcessing_e10c6eeb_internal_macro
-.loc ../contracts/Company/Company.tsol, 76
+.loc ../contracts/Company/Company.tsol, 74
 GETGLOB 13
 MULCONST 2
 UFITS 128
 SETGLOB 13
-.loc ../contracts/Company/Company.tsol, 77
+.loc ../contracts/Company/Company.tsol, 75
 GETGLOB 14
 GETGLOB 13
 ADD
 UFITS 128
 DUP
 SETGLOB 14
-.loc ../contracts/Company/Company.tsol, 78
+.loc ../contracts/Company/Company.tsol, 76
 GETGLOB 13
 PUSH S2
 PUSHSLICE xc0000000000000000000000000116ba8bf
@@ -261,7 +261,7 @@ STU 128
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/Company/Company.tsol, 82
+.loc ../contracts/Company/Company.tsol, 80
 GETGLOB 13
 SWAP
 NEWC
@@ -284,7 +284,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/Company/Company.tsol, 85
+.loc ../contracts/Company/Company.tsol, 83
 ENDS
 .loc ../contracts/Company/Company.tsol, 0
 CALLREF {
@@ -321,7 +321,7 @@ IFREF {
 THROW 0
 
 .macro getDetails_fbbf93a0_internal_macro
-.loc ../contracts/Company/Company.tsol, 86
+.loc ../contracts/Company/Company.tsol, 84
 GETGLOB 13
 GETGLOB 14
 .loc ../contracts/Company/Company.tsol, 0

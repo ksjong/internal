@@ -1,0 +1,129 @@
+// SPDX-License-Identifier: UNLICENSED
+import "locklift/src/console.tsol";
+pragma ever-solidity >= 0.62.0;
+
+import "BankAccount.tsol";
+
+contract Bank {
+    address public owner;
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
+    TvmCell static userContractCode;
+
+
+    uint public interestRate;
+    uint public bankProfit;
+    uint public loanNum;
+    bool public isLoanAvailable;
+
+    address public bankAddress;
+    event AccountDeployed(address accountAddress, address sender);
+    event LoanTaken(address user, uint loanNum);
+    event RepayfromUserSuccess(address user, uint TotalRepay);
+
+    modifier onlyOwner {
+        require(msg.sender == owner, 1001);
+        _;
+    }
+
+    modifier onlyAccount(address _accountAddress) {
+        require(getAddress(_accountAddress)==msg.sender, 1010);
+        _;
+    }
+
+    constructor(
+        uint _interestRate,
+        address _owner
+    ) public {
+        tvm.accept();
+        owner = _owner;
+        interestRate = _interestRate;
+
+        bankAddress = address(this);
+        isLoanAvailable = true;
+    }
+
+    function deployAccountForUser(uint128 _initBalance) external {
+        require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        TvmCell stateInit = buildInitParams(msg.sender);
+
+        address accountAddress = new BankAccount{
+            stateInit: stateInit,
+            code: userContractCode,
+            value: 1 ever
+
+        }(_initBalance);
+
+        emit AccountDeployed(accountAddress, msg.sender);
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function buildInitParams(address _accountAddress) internal returns (TvmCell){
+        return tvm.buildStateInit({
+            contr: BankAccount,
+            varInit: {
+            owner: _accountAddress,
+            bankAddress: address(this)
+        },
+            pubkey: tvm.pubkey(),
+            code: userContractCode
+        });
+    }
+
+    function getAddress(address _accountAddress) public returns(address) {
+        TvmCell accountInitState = buildInitParams(_accountAddress);
+        return address(tvm.hash(accountInitState));
+    }
+
+    function loan(uint _loanNum, address _accountAddress) external onlyAccount(_accountAddress){
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        require(isLoanAvailable, 1002);
+        loanProcessing(_loanNum, _accountAddress);
+    }
+
+    function loanProcessing(uint _loanNum, address _accountAddress) internal {
+        loanNum = _loanNum;
+        isLoanAvailable = false;
+        emit LoanTaken(_accountAddress, loanNum);
+        BankAccount(msg.sender).loanReceived{value:0, flag:128}(loanNum);
+    }
+
+    function calculating() public view returns (uint) {
+        uint TotalRepay;
+        TotalRepay = loanNum * (100 + interestRate) / 100;
+        return TotalRepay;
+    }
+
+    function repaying(uint128 _repayAmount, address _accountAddress) external onlyAccount(_accountAddress) {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
+
+        if(_repayAmount != calculating()){
+            BankAccount(msg.sender).repayRejected{value:0, flag:128}();
+            return;
+        }
+
+        BankAccount(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount);
+        repaidProcessing(_repayAmount,_accountAddress);
+
+    }
+
+    function repaidProcessing(uint128 _repayAmount, address _accountAddress) internal {
+        bankProfit += (_repayAmount - loanNum);
+        loanNum = 0;
+        isLoanAvailable = true;
+        emit RepayfromUserSuccess(msg.sender, _repayAmount);
+    }
+//
+//    function freezeBankAccount(address _bankAccount){
+//
+//    }
+
+
+    function getInterestRate() external view returns (uint) {
+        return interestRate;
+    }
+
+    function getProfit() external view returns (uint _profit) {
+       _profit = bankProfit;
+    }
+}

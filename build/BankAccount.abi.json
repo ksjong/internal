@@ -1,0 +1,162 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_initialBalance","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "borrowMoney",
+			"inputs": [
+				{"name":"_amount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "loanReceived",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayLoan",
+			"inputs": [
+				{"name":"_repayAmount","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayAccepted",
+			"inputs": [
+				{"name":"_totalRepayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repayRejected",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sendMoneyToUser",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"_destAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedMoneyFromUser",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"_bankAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getMoney",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_money","type":"uint256"}
+			]
+		},
+		{
+			"name": "money",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"money","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"bankAddress","type":"address"},
+		{"key":2,"name":"owner","type":"address"}
+	],
+	"events": [
+		{
+			"name": "BorrowedMoney",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"_amount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "LoanRepay",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"repayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedSuccess",
+			"inputs": [
+				{"name":"_loanNum","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "repaySuccess",
+			"inputs": [
+				{"name":"_totalRepayAmount","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "RepayRejected",
+			"inputs": [
+				{"name":"message","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "SendMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "ReceivedMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"money","type":"uint256"},
+		{"name":"bankAddress","type":"address"},
+		{"name":"owner","type":"address"}
+	]
+}
