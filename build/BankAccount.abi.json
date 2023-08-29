@@ -6,7 +6,10 @@
 		{
 			"name": "constructor",
 			"inputs": [
-				{"name":"_initialBalance","type":"uint128"}
+				{"name":"_initialBalance","type":"uint128"},
+				{"name":"_freezer","type":"bool"},
+				{"name":"_userContractCode","type":"cell"},
+				{"name":"_bankOwner","type":"address"}
 			],
 			"outputs": [
 			]
@@ -51,6 +54,15 @@
 			]
 		},
 		{
+			"name": "getAddress",
+			"inputs": [
+				{"name":"_accountAddress","type":"address"}
+			],
+			"outputs": [
+				{"name":"value0","type":"address"}
+			]
+		},
+		{
 			"name": "sendMoneyToUser",
 			"inputs": [
 				{"name":"_money","type":"uint256"},
@@ -63,7 +75,24 @@
 			"name": "receivedMoneyFromUser",
 			"inputs": [
 				{"name":"_money","type":"uint256"},
-				{"name":"_bankAddress","type":"address"}
+				{"name":"_ownerAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "mintedMoney",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"_ownerAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "freezerSet",
+			"inputs": [
+				{"name":"_freezer","type":"bool"}
 			],
 			"outputs": [
 			]
@@ -73,7 +102,7 @@
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"_money","type":"uint256"}
+				{"name":"value0","type":"uint256"}
 			]
 		},
 		{
@@ -82,6 +111,30 @@
 			],
 			"outputs": [
 				{"name":"money","type":"uint256"}
+			]
+		},
+		{
+			"name": "bankOwner",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"bankOwner","type":"address"}
+			]
+		},
+		{
+			"name": "userContractCode",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"userContractCode","type":"cell"}
+			]
+		},
+		{
+			"name": "freezer",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"freezer","type":"bool"}
 			]
 		}
 	],
@@ -149,6 +202,24 @@
 			],
 			"outputs": [
 			]
+		},
+		{
+			"name": "SetFreezer",
+			"inputs": [
+				{"name":"sender","type":"address"},
+				{"name":"freezer","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "MintedMoney",
+			"inputs": [
+				{"name":"_money","type":"uint256"},
+				{"name":"sender","type":"address"}
+			],
+			"outputs": [
+			]
 		}
 	],
 	"fields": [
@@ -157,6 +228,9 @@
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"money","type":"uint256"},
 		{"name":"bankAddress","type":"address"},
-		{"name":"owner","type":"address"}
+		{"name":"owner","type":"address"},
+		{"name":"bankOwner","type":"address"},
+		{"name":"userContractCode","type":"cell"},
+		{"name":"freezer","type":"bool"}
 	]
 }

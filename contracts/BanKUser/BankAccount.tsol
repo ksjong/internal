@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma ever-solidity >= 0.62.0;
 import "Bank.tsol";
-//import "locklift/src/console.tsol";
+import "locklift/src/console.tsol";
 
 contract BankAccount {
     uint public money;
@@ -10,6 +10,10 @@ contract BankAccount {
     address static bankAddress;
     address static owner;
 
+    address public bankOwner;
+    TvmCell public userContractCode;
+
+    bool public freezer;
 
     event BorrowedMoney(address user, uint _amount);
     event LoanRepay(address user, uint repayAmount);
@@ -20,19 +24,28 @@ contract BankAccount {
 
     event SendMoney(uint money, address sender);
     event ReceivedMoney(uint money, address sender);
-
+    event SetFreezer(address sender, bool freezer);
+    event MintedMoney(uint _money, address sender);
     modifier onlyOwner() {
         require(msg.sender == owner, 1011);
         _;
     }
 
-    constructor(uint128 _initialBalance) public {
+    modifier onlyNotFreezer() {
+        require(!freezer, 2003);
+        _;
+    }
+
+    constructor(uint128 _initialBalance, bool _freezer, TvmCell _userContractCode, address _bankOwner) public {
         money = _initialBalance;
+        freezer = _freezer;
+        userContractCode = _userContractCode;
+        bankOwner = _bankOwner;
     }
 
 
 
-    function borrowMoney(uint _amount) external {
+    function borrowMoney(uint _amount) external onlyNotFreezer{
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         emit BorrowedMoney(msg.sender, _amount);
         Bank(bankAddress).loan{value:0, flag:128}(_amount, msg.sender);
@@ -45,7 +58,7 @@ contract BankAccount {
         owner.transfer({value:0, flag:128});
     }
 
-    function repayLoan(uint128 _repayAmount) external {
+    function repayLoan(uint128 _repayAmount) external onlyNotFreezer{
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
         require(money >= _repayAmount, 1005);
         emit LoanRepay(msg.sender, _repayAmount);
@@ -67,24 +80,56 @@ contract BankAccount {
         owner.transfer({value:0, flag:128});
     }
 
-    function sendMoneyToUser(uint _money, address _destAddress) external onlyOwner{
+    function getAddress(address _accountAddress) public returns(address) {
+        TvmCell accountInitState = tvm.buildStateInit({
+            contr: BankAccount,
+            varInit: {
+            owner: _accountAddress,
+            bankAddress: bankAddress
+        },
+            pubkey: tvm.pubkey(),
+            code: userContractCode
+        });
+        return address(tvm.hash(accountInitState));
+    }
+
+    function sendMoneyToUser(uint _money, address _destAddress) external onlyOwner onlyNotFreezer{
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         require(money >= _money, 2000);
         money -= _money;
-        BankAccount(_destAddress).receivedMoneyFromUser{value:0, flag:128}(_money, bankAddress);
+        BankAccount(_destAddress).receivedMoneyFromUser{value:0, flag:128}(_money, owner);
         emit SendMoney(_money, msg.sender);
     }
 
-    function receivedMoneyFromUser(uint _money, address _bankAddress) external {
+    function receivedMoneyFromUser(uint _money, address _ownerAddress) external onlyNotFreezer{
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        require(bankAddress == _bankAddress, 2001);
+        require(msg.sender == getAddress(_ownerAddress), 2001);
         money+= _money;
 
         emit ReceivedMoney(_money, msg.sender);
         msg.sender.transfer({value:0, flag:128});
     }
 
-    function getMoney() external view returns (uint _money){
-        _money = money;
+    function mintedMoney(uint _money, address _ownerAddress) external onlyNotFreezer{
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+//        console.log(format("msg.sender{}", msg.sender));
+//        console.log(format("owner{}", bankOwner));
+        require(_ownerAddress == bankOwner, 2041);
+        money += _money;
+
+        emit MintedMoney(_money, msg.sender);
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function freezerSet(bool _freezer) external {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        require(msg.sender == bankAddress, 2002);
+        freezer = _freezer;
+        emit SetFreezer(msg.sender, freezer);
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function getMoney() external view returns (uint){
+        return money;
     }
 }

@@ -61,6 +61,7 @@ describe("BankUserTest", async function () {
         bank.methods
           .deployAccountForUser({
             _initBalance: 200,
+            _freezer: false,
           })
           .send({
             from: userAccount.address,
@@ -72,6 +73,7 @@ describe("BankUserTest", async function () {
         bank.methods
           .deployAccountForUser({
             _initBalance: 399,
+            _freezer: false,
           })
           .send({
             from: userAccount2.address,
@@ -132,6 +134,19 @@ describe("BankUserTest", async function () {
           }),
       );
       await sendMoney?.beautyPrint();
+      // const { traceTree: freeze } = await locklift.tracing.trace(
+      //   bank.methods
+      //     .freezeUserAccount({
+      //       _userAddress: bankAccount2.address,
+      //       _freezer: true,
+      //     })
+      //     .send({
+      //       from: bankWallet.address,
+      //       amount: toNano(1),
+      //     }),
+      // );
+      // await freeze?.beautyPrint();
+
       const { traceTree: sendMoney2 } = await locklift.tracing.trace(
         bankAccount2.methods
           .sendMoneyToUser({
@@ -150,6 +165,21 @@ describe("BankUserTest", async function () {
       console.log(response2);
       const response3 = await bankAccount2.methods.getMoney().call();
       console.log(response3);
+
+      const { traceTree: MintMoney } = await locklift.tracing.trace(
+        bank.methods
+          .mintAccount({
+            _userAddress: bankAccount.address,
+            _money: 200,
+          })
+          .send({
+            from: bankWallet.address,
+            amount: toNano(1),
+          }),
+      );
+      await MintMoney?.beautyPrint();
+      const response4 = await bankAccount.methods.getMoney().call();
+      console.log(response4);
     });
   });
 });

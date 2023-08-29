@@ -42,7 +42,7 @@ contract Bank {
         isLoanAvailable = true;
     }
 
-    function deployAccountForUser(uint128 _initBalance) external {
+    function deployAccountForUser(uint128 _initBalance, bool _freezer) external {
         require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         TvmCell stateInit = buildInitParams(msg.sender);
@@ -52,7 +52,9 @@ contract Bank {
             code: userContractCode,
             value: 1 ever
 
-        }(_initBalance);
+        }(_initBalance, _freezer, userContractCode, owner );
+//        console.log(format("ADDRESS {}", workerAddress));
+//        console.log(format("CODE {}", userContractCode));
 
         emit AccountDeployed(accountAddress, msg.sender);
         msg.sender.transfer({value:0, flag:128});
@@ -113,11 +115,16 @@ contract Bank {
         isLoanAvailable = true;
         emit RepayfromUserSuccess(msg.sender, _repayAmount);
     }
-//
-//    function freezeBankAccount(address _bankAccount){
-//
-//    }
 
+    function freezeUserAccount(address _userAddress, bool _freezer) external onlyOwner {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        BankAccount(_userAddress).freezerSet{value:0, flag:128}(_freezer);
+    }
+
+    function mintAccount(address _userAddress, uint _money) external onlyOwner {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        BankAccount(_userAddress).mintedMoney{value:0, flag:128}(_money, msg.sender);
+    }
 
     function getInterestRate() external view returns (uint) {
         return interestRate;

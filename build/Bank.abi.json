@@ -15,7 +15,8 @@
 		{
 			"name": "deployAccountForUser",
 			"inputs": [
-				{"name":"_initBalance","type":"uint128"}
+				{"name":"_initBalance","type":"uint128"},
+				{"name":"_freezer","type":"bool"}
 			],
 			"outputs": [
 			]
@@ -51,6 +52,24 @@
 			"inputs": [
 				{"name":"_repayAmount","type":"uint128"},
 				{"name":"_accountAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "freezeUserAccount",
+			"inputs": [
+				{"name":"_userAddress","type":"address"},
+				{"name":"_freezer","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "mintAccount",
+			"inputs": [
+				{"name":"_userAddress","type":"address"},
+				{"name":"_money","type":"uint256"}
 			],
 			"outputs": [
 			]
