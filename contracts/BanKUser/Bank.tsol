@@ -52,7 +52,7 @@ contract Bank {
             code: userContractCode,
             value: 1 ever
 
-        }(_initBalance, _freezer, userContractCode, owner );
+        }(_initBalance, _freezer, userContractCode );
 //        console.log(format("ADDRESS {}", workerAddress));
 //        console.log(format("CODE {}", userContractCode));
 
@@ -118,12 +118,12 @@ contract Bank {
 
     function freezeUserAccount(address _userAddress, bool _freezer) external onlyOwner {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        BankAccount(_userAddress).freezerSet{value:0, flag:128}(_freezer);
+        BankAccount(_userAddress).freezerSet{value:0, flag:128}(_freezer, owner);
     }
 
     function mintAccount(address _userAddress, uint _money) external onlyOwner {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        BankAccount(_userAddress).mintedMoney{value:0, flag:128}(_money, msg.sender);
+        BankAccount(_userAddress).mintedMoney{value:0, flag:128}(_money, owner);
     }
 
     function getInterestRate() external view returns (uint) {

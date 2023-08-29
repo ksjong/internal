@@ -1,88 +1,222 @@
 {
   "map": {
-    "05507b63aa266135a761851b231aad19f3d75e34bf681667319823144e85eb8b": {
+    "01ffecc97f52241dc802b3278525aa633747a07b477ccaf9d02ec57b4ba049d8": {
       "0": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 78
+        "line": 83
+      },
+      "16": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "24": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "40": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
       },
       "48": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 78
+        "line": 83
       },
       "56": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 78
+        "line": 83
       },
       "72": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
+        "line": 83
       },
-      "80": {
+      "88": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
+        "line": 83
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "160": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "208": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "216": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
+      },
+      "232": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
       },
       "240": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
-      },
-      "248": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
+        "line": 83
       },
       "256": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
+        "line": 83
       },
       "264": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
+        "line": 83
       },
-      "272": {
+      "288": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
+        "line": 83
       },
-      "280": {
+      "304": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
-      },
-      "296": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
-      },
-      "312": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 83
       },
       "320": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 83
+      },
+      "336": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 83
       },
       "344": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 92
       },
-      "352": {
+      "360": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 92
       },
       "368": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 92
+      },
+      "400": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 92
+      },
+      "416": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 92
+      },
+      "424": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 92
+      }
+    },
+    "05507b63aa266135a761851b231aad19f3d75e34bf681667319823144e85eb8b": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 77
+      },
+      "48": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 77
+      },
+      "56": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 77
+      },
+      "72": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "80": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "240": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "248": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "256": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "264": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "272": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "280": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      },
+      "296": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 79
+      },
+      "312": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 79
+      },
+      "320": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 79
+      },
+      "344": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 79
+      },
+      "352": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 79
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 79
       },
       "384": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 79
       },
       "392": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 79
       },
       "408": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 80
+        "line": 79
       }
     },
-    "07abb4e9b88cdf9fa46360a2c72770dad4111e269bb615ae531b96300ba87336": {
+    "0abea087bf731c91ac1cc2d591ab407fab63d9d2ede1ec003f09a7348a91cc6e": {
       "0": {
         "filename": "BankAccount.code",
         "line": 998
@@ -123,1392 +257,216 @@
         "filename": "BankAccount.code",
         "line": 1009
       },
-      "256": {
+      "264": {
         "filename": "BankAccount.code",
         "line": 1010
       },
-      "264": {
+      "272": {
         "filename": "BankAccount.code",
         "line": 1011
       },
-      "272": {
+      "280": {
         "filename": "BankAccount.code",
         "line": 1012
       },
-      "288": {
+      "296": {
         "filename": "BankAccount.code",
         "line": 1014
       },
-      "296": {
+      "304": {
         "filename": "BankAccount.code",
         "line": 1015
       }
     },
-    "0bc89a5736afd22fb6227ab4b785698d40c0a31eb315289f9188fdd37283f154": {
+    "1ed1c2d588f0b0457fd90ba42e1767d8ab1361c73a88cb99714f0275de5d982a": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 725
+        "line": 502
       },
       "8": {
         "filename": "BankAccount.code",
-        "line": 726
+        "line": 503
       },
       "24": {
         "filename": "BankAccount.code",
-        "line": 727
+        "line": 504
       },
       "48": {
         "filename": "BankAccount.code",
-        "line": 728
+        "line": 505
       },
       "64": {
         "filename": "BankAccount.code",
-        "line": 729
+        "line": 506
       },
       "72": {
         "filename": "BankAccount.code",
-        "line": 730
+        "line": 507
       },
       "88": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 132
-      },
-      "96": {
-        "filename": "BankAccount.code",
-        "line": 736
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 739
-      },
-      "120": {
-        "filename": "BankAccount.code",
-        "line": 740
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 741
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 742
-      },
-      "152": {
-        "filename": "BankAccount.code",
-        "line": 743
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 744
-      },
-      "184": {
-        "filename": "BankAccount.code",
-        "line": 745
-      },
-      "192": {
-        "filename": "BankAccount.code",
-        "line": 746
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 747
-      },
-      "208": {
-        "filename": "BankAccount.code",
-        "line": 748
-      },
-      "232": {
-        "filename": "BankAccount.code",
-        "line": 749
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 750
-      },
-      "288": {
-        "filename": "BankAccount.code",
-        "line": 751
-      },
-      "312": {
-        "filename": "BankAccount.code",
-        "line": 752
-      },
-      "328": {
-        "filename": "BankAccount.code",
-        "line": 753
-      },
-      "336": {
-        "filename": "BankAccount.code",
-        "line": 754
-      },
-      "344": {
-        "filename": "BankAccount.code",
-        "line": 755
-      },
-      "360": {
-        "filename": "BankAccount.code",
-        "line": 757
-      },
-      "368": {
-        "filename": "BankAccount.code",
-        "line": 758
-      },
-      "376": {
-        "filename": "BankAccount.code",
-        "line": 760
-      },
-      "384": {
-        "filename": "BankAccount.code",
-        "line": 761
-      },
-      "400": {
-        "filename": "BankAccount.code",
-        "line": 764
-      }
-    },
-    "303b1dd0db5ccd67ad2879136f4bdd496acb1210c12bbb9aee89b7384e120494": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 55
-      },
-      "48": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 55
-      },
-      "56": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 55
-      },
-      "72": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 56
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 56
+        "line": 103
       },
       "96": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 56
+        "line": 103
       },
       "104": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 56
+        "line": 103
       },
       "120": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "280": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "288": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "296": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "312": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "320": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "328": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 57
-      },
-      "344": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "360": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "392": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "400": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "432": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      },
-      "456": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 58
-      }
-    },
-    "3fed4d7800e8c8ecd26ebce7a0473fad1d530f65645ce85e0148df1ebc37ea1b": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "16": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "40": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 105
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 105
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 105
-      },
-      "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 106
+        "line": 103
       },
       "128": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 106
+        "line": 103
       },
       "136": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 106
-      },
-      "152": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 106
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 106
-      },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 107
-      },
-      "208": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 107
-      },
-      "216": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 107
-      },
-      "224": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 107
-      },
-      "240": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "256": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "264": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "424": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "432": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "456": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "464": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "472": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "480": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 109
-      },
-      "496": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "512": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "520": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "544": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "552": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "568": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "584": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "592": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      },
-      "608": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 110
-      }
-    },
-    "420a647e5c7a3b4a647b77aa0978853b9c117362e63b6337e0ee5d18c336448c": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 70
-      },
-      "48": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 70
-      },
-      "56": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 70
-      },
-      "72": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 71
-      },
-      "80": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 71
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 71
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 71
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 72
+        "line": 103
       },
       "144": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 72
+        "line": 103
       },
       "152": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 72
+        "line": 103
       },
-      "160": {
+      "168": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 72
+        "line": 103
       },
       "176": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 72
+        "line": 103
       },
       "192": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
+        "line": 103
       },
-      "352": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 525
       },
-      "360": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 528
       },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 529
       },
-      "384": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
-      },
-      "392": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
-      },
-      "400": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 73
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "432": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "464": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "472": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "488": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "504": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "512": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
-      },
-      "528": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 74
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 532
       }
     },
-    "50fad0623f32f0563778439149cbbe72253c0b7878b675de688e35ada22e6e5f": {
+    "1f4cccf6047e610771590d5fb235d97049e3585baf210e514296d38673bcb7e7": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 284
+        "line": 766
       },
-      "8": {
+      "16": {
         "filename": "BankAccount.code",
-        "line": 285
+        "line": 767
       },
       "24": {
         "filename": "BankAccount.code",
-        "line": 286
+        "line": 768
       },
-      "48": {
+      "40": {
         "filename": "BankAccount.code",
-        "line": 287
+        "line": 769
       },
-      "64": {
+      "56": {
         "filename": "BankAccount.code",
-        "line": 288
+        "line": 770
       },
       "72": {
         "filename": "BankAccount.code",
-        "line": 289
+        "line": 771
       },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 77
+      "80": {
+        "filename": "BankAccount.code",
+        "line": 772
       },
       "96": {
         "filename": "BankAccount.code",
-        "line": 295
+        "line": 773
+      },
+      "104": {
+        "filename": "BankAccount.code",
+        "line": 774
       },
       "112": {
         "filename": "BankAccount.code",
-        "line": 298
+        "line": 775
       },
       "120": {
         "filename": "BankAccount.code",
-        "line": 299
+        "line": 776
       },
       "136": {
         "filename": "BankAccount.code",
-        "line": 302
-      }
-    },
-    "556769ba65cf8ba6faed03370048ec16de5229e1f8f84bf2ba357bc0c5a87654": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 108
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 109
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 110
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 111
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 112
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 113
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 54
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 54
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 120
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 123
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 124
-      },
-      "152": {
-        "filename": "BankAccount.code",
-        "line": 127
-      }
-    },
-    "5afce4119589969a7edd0775da66491f293d63874f40571b3640dfb891638cad": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 30
-      },
-      "16": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 30
-      },
-      "32": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 30
-      },
-      "48": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 30
-      },
-      "72": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 97
-      },
-      "160": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 97
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 97
-      },
-      "184": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 98
-      },
-      "200": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 98
-      },
-      "208": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 98
-      },
-      "216": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 98
-      },
-      "240": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 99
-      },
-      "256": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 99
-      },
-      "264": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 99
-      },
-      "272": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 99
-      },
-      "288": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 99
-      },
-      "304": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "320": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "328": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "336": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "344": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "376": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "384": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "408": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "424": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "472": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "488": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "496": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "504": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "512": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "528": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 100
-      },
-      "544": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "560": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "568": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "728": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "736": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "744": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "760": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "768": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "776": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      },
-      "784": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 101
-      }
-    },
-    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 820
-      }
-    },
-    "6207cf8d6f3374a28c88d33ddea84aa57a21d839392a360093a5f9fa6a19c1be": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 47
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 48
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 49
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 50
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 51
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 52
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 48
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 48
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 59
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 62
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 63
-      },
-      "152": {
-        "filename": "BankAccount.code",
-        "line": 66
-      }
-    },
-    "635887ebe3aa4f0551de5f2557112f2aaefab5c12c66e771b74d09d462fde22b": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "16": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "24": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "40": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "48": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "56": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "72": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
+        "line": 777
       },
       "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
+        "filename": "BankAccount.code",
+        "line": 778
+      },
+      "152": {
+        "filename": "BankAccount.code",
+        "line": 779
       },
       "160": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
+        "filename": "BankAccount.code",
+        "line": 780
       },
       "176": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
+        "filename": "BankAccount.code",
+        "line": 781
       },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
+      "184": {
+        "filename": "BankAccount.code",
+        "line": 782
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 783
       },
       "208": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "216": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "232": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "240": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "256": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "264": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "288": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "304": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "320": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "336": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 84
-      },
-      "344": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 93
-      },
-      "360": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 93
-      },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 93
-      },
-      "400": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 93
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 93
-      },
-      "424": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 93
-      }
-    },
-    "63c7904cd834925504a6d4c54c0dd5d3a51e681d074595608984bfac3bf3194d": {
-      "0": {
         "filename": "BankAccount.code",
-        "line": 859
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 860
-      },
-      "32": {
-        "filename": "BankAccount.code",
-        "line": 861
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 862
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 863
-      },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 864
-      },
-      "96": {
-        "filename": "BankAccount.code",
-        "line": 865
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 866
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 867
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 868
-      },
-      "152": {
-        "filename": "BankAccount.code",
-        "line": 869
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 870
-      },
-      "184": {
-        "filename": "BankAccount.code",
-        "line": 871
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 872
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 873
+        "line": 784
       },
       "224": {
         "filename": "BankAccount.code",
-        "line": 874
+        "line": 785
       },
-      "232": {
+      "240": {
         "filename": "BankAccount.code",
-        "line": 875
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 876
+        "line": 786
       },
       "256": {
         "filename": "BankAccount.code",
-        "line": 877
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 878
-      },
-      "280": {
-        "filename": "BankAccount.code",
-        "line": 879
-      },
-      "288": {
-        "filename": "BankAccount.code",
-        "line": 880
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 881
-      },
-      "304": {
-        "filename": "BankAccount.code",
-        "line": 882
-      },
-      "320": {
-        "filename": "BankAccount.code",
-        "line": 883
-      },
-      "328": {
-        "filename": "BankAccount.code",
-        "line": 884
-      },
-      "336": {
-        "filename": "BankAccount.code",
-        "line": 885
-      },
-      "344": {
-        "filename": "BankAccount.code",
-        "line": 886
-      },
-      "352": {
-        "filename": "BankAccount.code",
-        "line": 887
-      }
-    },
-    "725e6fd7c4a9f231ef14b220ba28b143d5e16a2f3203ceed4c43bf031ea49fdc": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 226
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 227
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 228
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 229
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 230
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 231
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 69
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 69
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 238
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 241
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 242
-      },
-      "152": {
-        "filename": "BankAccount.code",
-        "line": 245
-      }
-    },
-    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
-      "0": {
-        "filename": "<internal-selector>",
-        "line": 1
-      },
-      "24": {
-        "filename": "<internal-selector>",
-        "line": 2
-      }
-    },
-    "78c1aea9a9dbdc0050c913803773d6ea07b6ea51d22b81f1bba0a13894bdca1f": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 1091
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 1092
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 1093
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 1094
-      },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 1097
-      },
-      "88": {
-        "filename": "BankAccount.code",
-        "line": 1098
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 1099
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 1100
-      },
-      "160": {
-        "filename": "BankAccount.code",
-        "line": 1103
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 1104
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 1105
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 1106
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 1109
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 1110
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 1111
-      },
-      "304": {
-        "filename": "BankAccount.code",
-        "line": 1112
-      }
-    },
-    "7fbdd64e463c1566c2d3597f150dcc24d348fdf22122e636479a0e3482714014": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "16": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "40": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 114
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 114
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 114
-      },
-      "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 117
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 117
-      },
-      "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 117
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 118
-      },
-      "184": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 118
-      },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 118
-      },
-      "200": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 118
-      },
-      "216": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "232": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "240": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "400": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "408": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "432": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "448": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "456": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 120
-      },
-      "472": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "488": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "496": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "520": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "528": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "544": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "560": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "568": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      },
-      "584": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 121
-      }
-    },
-    "811779ef0e1208419fa35c951db4a924e69056e08accaf3254b9727f6670eb4e": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 978
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 979
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 980
-      },
-      "32": {
-        "filename": "BankAccount.code",
-        "line": 983
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 984
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 985
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 986
-      },
-      "232": {
-        "filename": "BankAccount.code",
-        "line": 987
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 988
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 989
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 990
+        "line": 787
       },
       "272": {
         "filename": "BankAccount.code",
-        "line": 991
+        "line": 788
       },
-      "280": {
+      "288": {
         "filename": "BankAccount.code",
-        "line": 992
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 994
+        "line": 789
       },
       "304": {
         "filename": "BankAccount.code",
-        "line": 995
+        "line": 790
       }
     },
-    "8483fcbab7632704c1252780e1c371b17b8f525a1296205e149bc63c4aa6d0ec": {
+    "1fbeac53394d8427e6c71fd7ac18a60f6e8f6f2e5e1b4e6b7af2d00cbad9c12c": {
       "0": {
         "filename": "<entry-selector>",
         "line": 1
@@ -1554,1106 +512,1353 @@
         "line": 11
       }
     },
-    "8493375e095efa0f26c2c4f9322b23ccab2685bbd447d6266288aea5c9018f1a": {
+    "208a0cbd89018230863695c1edb9005d2ca7bf365bedc540dd8dbbe4e881d904": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 595
+        "line": 31
       },
       "8": {
         "filename": "BankAccount.code",
-        "line": 596
+        "line": 32
       },
       "24": {
         "filename": "BankAccount.code",
-        "line": 597
+        "line": 33
       },
       "48": {
         "filename": "BankAccount.code",
-        "line": 598
+        "line": 34
       },
       "64": {
         "filename": "BankAccount.code",
-        "line": 599
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 600
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "120": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "136": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "152": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "176": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 113
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 618
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 621
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 622
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 625
-      }
-    },
-    "8b1870ffb8a23ac6f4792b0642839bbf35fd8ea7d96df532c90beb0cd950893c": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 906
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 907
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 908
-      },
-      "40": {
-        "filename": "BankAccount.code",
-        "line": 909
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 910
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 911
-      },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 912
-      },
-      "88": {
-        "filename": "BankAccount.code",
-        "line": 913
-      },
-      "104": {
-        "filename": "BankAccount.code",
-        "line": 914
-      },
-      "120": {
-        "filename": "BankAccount.code",
-        "line": 915
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 916
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 917
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 918
-      },
-      "176": {
-        "filename": "BankAccount.code",
-        "line": 919
-      },
-      "184": {
-        "filename": "BankAccount.code",
-        "line": 920
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 921
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 925
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 926
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 927
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 928
-      },
-      "272": {
-        "filename": "BankAccount.code",
-        "line": 929
-      },
-      "288": {
-        "filename": "BankAccount.code",
-        "line": 933
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 934
-      },
-      "312": {
-        "filename": "BankAccount.code",
-        "line": 937
-      }
-    },
-    "90aa0137275a0ba8e72f5c027ddc20a3a341bb9c8e30852aa0ec79a9fcd30894": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
         "line": 35
       },
-      "16": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "40": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 62
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 62
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 62
-      },
-      "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 63
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 63
-      },
-      "136": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 63
-      },
-      "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 63
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "176": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "352": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "360": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "376": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "392": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "400": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "408": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 64
-      },
-      "424": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "448": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "464": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "472": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "496": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "504": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "512": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "536": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "544": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "552": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "600": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "616": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "624": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "632": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "640": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      },
-      "656": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 65
-      }
-    },
-    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "9967356c2971c1b69f82975dffc292cbc1060d044198f1e5d812da5fc8ab50f5": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 430
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 431
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 432
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 433
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 434
-      },
       "72": {
         "filename": "BankAccount.code",
-        "line": 435
+        "line": 36
       },
       "88": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
+        "line": 47
       },
       "104": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "120": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "136": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "152": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "176": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 96
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 453
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 456
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 457
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 460
-      }
-    },
-    "9f6e6ef692183ab2bd813edbb0cc7a241b3ab77087d3bef1efae74cd825275b0": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 518
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 519
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 520
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 521
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 522
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 523
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "120": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "136": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "152": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "176": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "192": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 104
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 541
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 544
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 545
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 548
-      }
-    },
-    "a1fc4d4c7449af85b861cdf2fcdfdef9bbbdda4fef5df637ebf8a1145fbafecc": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 668
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 669
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 670
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 671
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 672
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 673
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 124
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 124
+        "line": 47
       },
       "112": {
         "filename": "BankAccount.code",
-        "line": 680
+        "line": 43
       },
       "128": {
         "filename": "BankAccount.code",
-        "line": 683
+        "line": 46
       },
       "136": {
         "filename": "BankAccount.code",
-        "line": 684
+        "line": 47
       },
       "152": {
         "filename": "BankAccount.code",
-        "line": 687
+        "line": 50
       }
     },
-    "a5fab022ecc408a2abe6b28310396a5f301584190834372d78241ce1d2b034bb": {
+    "21f3745fd5731bd26806e8939f567ed8ced3753636168810da05faccc8551a55": {
       "0": {
-        "filename": "BankAccount.code",
-        "line": 1062
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 1063
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 1064
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 1065
-      },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 1068
-      },
-      "88": {
-        "filename": "BankAccount.code",
-        "line": 1069
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 1070
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 1071
-      },
-      "160": {
-        "filename": "BankAccount.code",
-        "line": 1074
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 1075
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 1076
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 1077
-      },
-      "240": {
         "filename": "BankAccount.code",
         "line": 1080
       },
-      "248": {
+      "8": {
         "filename": "BankAccount.code",
         "line": 1081
       },
-      "296": {
+      "56": {
         "filename": "BankAccount.code",
         "line": 1082
       },
-      "304": {
+      "64": {
         "filename": "BankAccount.code",
         "line": 1083
-      }
-    },
-    "a6dc240387e6fa8a5f4bec897942a771e289a8b3588997a2e8043eaaa4115aaf": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 941
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 942
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 943
-      },
-      "40": {
-        "filename": "BankAccount.code",
-        "line": 944
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 945
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 946
       },
       "80": {
         "filename": "BankAccount.code",
-        "line": 949
+        "line": 1086
       },
-      "96": {
+      "88": {
         "filename": "BankAccount.code",
-        "line": 950
-      },
-      "104": {
-        "filename": "BankAccount.code",
-        "line": 951
-      },
-      "120": {
-        "filename": "BankAccount.code",
-        "line": 954
+        "line": 1087
       },
       "136": {
         "filename": "BankAccount.code",
-        "line": 955
+        "line": 1088
       },
       "144": {
         "filename": "BankAccount.code",
-        "line": 956
+        "line": 1089
       },
-      "152": {
+      "160": {
         "filename": "BankAccount.code",
-        "line": 957
+        "line": 1092
       },
       "168": {
         "filename": "BankAccount.code",
-        "line": 958
-      },
-      "184": {
-        "filename": "BankAccount.code",
-        "line": 959
-      },
-      "192": {
-        "filename": "BankAccount.code",
-        "line": 960
-      },
-      "208": {
-        "filename": "BankAccount.code",
-        "line": 961
+        "line": 1093
       },
       "216": {
         "filename": "BankAccount.code",
-        "line": 962
+        "line": 1094
       },
-      "232": {
+      "224": {
         "filename": "BankAccount.code",
-        "line": 963
+        "line": 1095
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 1098
       },
       "248": {
         "filename": "BankAccount.code",
-        "line": 964
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 966
-      },
-      "272": {
-        "filename": "BankAccount.code",
-        "line": 967
-      },
-      "288": {
-        "filename": "BankAccount.code",
-        "line": 968
+        "line": 1099
       },
       "296": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "312": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "320": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "328": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "344": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "352": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "368": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "392": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "400": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "440": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "448": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "456": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "472": {
-        "filename": "stdlib.sol",
-        "line": 63
-      },
-      "488": {
         "filename": "BankAccount.code",
-        "line": 970
-      },
-      "504": {
-        "filename": "BankAccount.code",
-        "line": 971
-      },
-      "512": {
-        "filename": "BankAccount.code",
-        "line": 972
-      },
-      "528": {
-        "filename": "BankAccount.code",
-        "line": 975
-      }
-    },
-    "a725809aedd6221d5cb85a85a73d16c3952cfa349102a4dee8b86ad6895e072d": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "16": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 35
-      },
-      "40": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 49
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 49
-      },
-      "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 49
-      },
-      "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "120": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "136": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "296": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
+        "line": 1100
       },
       "304": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "312": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "320": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "336": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "344": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "352": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 50
-      },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "384": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "392": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "408": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "448": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "456": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "480": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "488": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "496": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "544": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "560": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "568": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "576": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "584": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
-      },
-      "600": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 51
+        "filename": "BankAccount.code",
+        "line": 1101
       }
     },
-    "b4e5c31593aacf6790fe7084d78fafdb46bfbb5e07ccc4d0ba3dcd1b54f9897b": {
+    "22e8caafa972db4db8d46ae0b1c042d8c202fa10d871be2491d2dfb32d6bb900": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 1149
+        "line": 144
       },
       "8": {
         "filename": "BankAccount.code",
-        "line": 1150
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 1151
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 1152
-      },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 1155
-      },
-      "88": {
-        "filename": "BankAccount.code",
-        "line": 1156
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 1157
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 1158
-      },
-      "160": {
-        "filename": "BankAccount.code",
-        "line": 1161
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 1162
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 1163
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 1164
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 1167
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 1168
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 1169
-      },
-      "304": {
-        "filename": "BankAccount.code",
-        "line": 1170
-      }
-    },
-    "b9243dd4b53adda48c5275c3ae58ee9a52df577a1f2e4f505f75d79d48ea950f": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 772
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 773
+        "line": 145
       },
       "24": {
         "filename": "BankAccount.code",
-        "line": 774
+        "line": 146
       },
-      "40": {
+      "48": {
         "filename": "BankAccount.code",
-        "line": 775
+        "line": 147
       },
-      "56": {
+      "64": {
         "filename": "BankAccount.code",
-        "line": 776
+        "line": 148
       },
       "72": {
         "filename": "BankAccount.code",
-        "line": 777
+        "line": 149
       },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 778
-      },
-      "96": {
-        "filename": "BankAccount.code",
-        "line": 779
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 60
       },
       "104": {
-        "filename": "BankAccount.code",
-        "line": 780
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 60
       },
       "112": {
         "filename": "BankAccount.code",
-        "line": 781
+        "line": 156
       },
-      "120": {
+      "128": {
         "filename": "BankAccount.code",
-        "line": 782
+        "line": 159
       },
       "136": {
         "filename": "BankAccount.code",
-        "line": 783
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 784
+        "line": 160
       },
       "152": {
         "filename": "BankAccount.code",
-        "line": 785
+        "line": 163
+      }
+    },
+    "254d8dd41f9753e31984716444a5ce5cea6b38dc52ca5e597e3248dffa63b952": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 317
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 318
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 319
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 320
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 321
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 322
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
+      },
+      "152": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 82
       },
       "160": {
         "filename": "BankAccount.code",
-        "line": 786
+        "line": 336
       },
       "176": {
         "filename": "BankAccount.code",
-        "line": 787
+        "line": 339
       },
       "184": {
         "filename": "BankAccount.code",
-        "line": 788
-      },
-      "192": {
-        "filename": "BankAccount.code",
-        "line": 789
+        "line": 340
       },
       "200": {
         "filename": "BankAccount.code",
-        "line": 790
+        "line": 341
+      },
+      "208": {
+        "filename": "BankAccount.code",
+        "line": 342
       },
       "216": {
         "filename": "BankAccount.code",
-        "line": 791
+        "line": 343
       },
-      "224": {
+      "232": {
         "filename": "BankAccount.code",
-        "line": 792
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 793
+        "line": 344
       },
       "248": {
         "filename": "BankAccount.code",
-        "line": 794
+        "line": 345
+      },
+      "256": {
+        "filename": "BankAccount.code",
+        "line": 346
       },
       "264": {
         "filename": "BankAccount.code",
-        "line": 795
+        "line": 347
       },
-      "280": {
+      "272": {
         "filename": "BankAccount.code",
-        "line": 796
+        "line": 348
       },
       "296": {
         "filename": "BankAccount.code",
-        "line": 797
+        "line": 349
+      },
+      "304": {
+        "filename": "BankAccount.code",
+        "line": 350
       },
       "312": {
         "filename": "BankAccount.code",
-        "line": 798
+        "line": 351
       },
-      "328": {
+      "336": {
         "filename": "BankAccount.code",
-        "line": 799
+        "line": 352
       },
       "344": {
         "filename": "BankAccount.code",
-        "line": 800
+        "line": 353
       },
-      "360": {
+      "352": {
         "filename": "BankAccount.code",
-        "line": 801
+        "line": 354
+      },
+      "400": {
+        "filename": "BankAccount.code",
+        "line": 355
+      },
+      "408": {
+        "filename": "BankAccount.code",
+        "line": 356
+      },
+      "416": {
+        "filename": "BankAccount.code",
+        "line": 357
+      },
+      "424": {
+        "filename": "BankAccount.code",
+        "line": 358
+      },
+      "432": {
+        "filename": "BankAccount.code",
+        "line": 359
+      },
+      "448": {
+        "filename": "BankAccount.code",
+        "line": 361
+      },
+      "456": {
+        "filename": "BankAccount.code",
+        "line": 362
+      },
+      "464": {
+        "filename": "BankAccount.code",
+        "line": 364
+      },
+      "472": {
+        "filename": "BankAccount.code",
+        "line": 365
+      },
+      "480": {
+        "filename": "BankAccount.code",
+        "line": 366
+      },
+      "496": {
+        "filename": "BankAccount.code",
+        "line": 369
       }
     },
-    "be38da0e990b12d4710a358e21fe45bdf0e966d91021c9bfedf070ae3eaffb40": {
+    "2721983dbb1543e07de1d5ca2334dfb65c98a696f5ca4598786eef16387ab650": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 122
+      },
+      "48": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 122
+      },
+      "56": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 122
+      },
+      "72": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 123
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 123
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 123
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 123
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 124
+      },
+      "160": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 124
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "352": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "360": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "376": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "392": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "400": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "408": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 125
+      },
+      "424": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "432": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "456": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "464": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "480": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "496": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "504": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      },
+      "520": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 126
+      }
+    },
+    "276647382fdabb8e0c1d8f8b9d2d7f9198065223e397551e01a50c0ff97beb1f": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 793
+      },
+      "16": {
+        "filename": "BankAccount.code",
+        "line": 794
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 795
+      },
+      "40": {
+        "filename": "BankAccount.code",
+        "line": 796
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 797
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 839
+      }
+    },
+    "286424c75e462174a4ee8bee8f7ae96145bbec8fd6cc2abcc81bcc418fdfb0c9": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "16": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "40": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 104
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 104
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 104
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 105
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 105
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 105
+      },
+      "152": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 105
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 105
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 106
+      },
+      "208": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 106
+      },
+      "216": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 106
+      },
+      "224": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 106
+      },
+      "240": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "256": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "264": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "424": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "432": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "440": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "456": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "464": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "472": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "480": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 108
+      },
+      "496": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "512": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "520": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "544": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "552": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "568": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "584": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "592": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      },
+      "608": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 109
+      }
+    },
+    "303b1dd0db5ccd67ad2879136f4bdd496acb1210c12bbb9aee89b7384e120494": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 54
+      },
+      "48": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 54
+      },
+      "56": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 54
+      },
+      "72": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 55
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 55
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 55
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 55
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "280": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "288": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "296": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "312": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "320": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "328": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 56
+      },
+      "344": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "360": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "392": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "400": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "416": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "432": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "440": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      },
+      "456": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 57
+      }
+    },
+    "420a647e5c7a3b4a647b77aa0978853b9c117362e63b6337e0ee5d18c336448c": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 69
+      },
+      "48": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 69
+      },
+      "56": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 69
+      },
+      "72": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 70
+      },
+      "80": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 70
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 70
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 70
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 71
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 71
+      },
+      "152": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 71
+      },
+      "160": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 71
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 71
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "352": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "360": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "384": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "392": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "400": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 72
+      },
+      "416": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "432": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "440": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "464": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "472": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "488": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "504": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "512": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      },
+      "528": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 73
+      }
+    },
+    "49731957ee90e4f685efaa6ba6365aa337db8480ba3773b11dcf423d393aaf34": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "16": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "40": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 61
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 61
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 61
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 62
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 62
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 62
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 62
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "352": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "360": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "376": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "392": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "400": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "408": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 63
+      },
+      "424": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "440": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "448": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "464": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "472": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "496": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "504": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "512": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "536": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "544": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "552": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "600": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "616": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "624": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "632": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "640": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      },
+      "656": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 64
+      }
+    },
+    "52dd8d49519ab7f2b4e33c1997535e03b509011b674bd71559a96195684fa4b4": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 1022
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 1023
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 1024
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 1025
+      },
+      "80": {
+        "filename": "BankAccount.code",
+        "line": 1028
+      },
+      "88": {
+        "filename": "BankAccount.code",
+        "line": 1029
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 1030
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 1031
+      },
+      "160": {
+        "filename": "BankAccount.code",
+        "line": 1034
+      },
+      "168": {
+        "filename": "BankAccount.code",
+        "line": 1035
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 1036
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 1037
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 1040
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 1041
+      },
+      "296": {
+        "filename": "BankAccount.code",
+        "line": 1042
+      },
+      "304": {
+        "filename": "BankAccount.code",
+        "line": 1043
+      }
+    },
+    "56d5f95e71565eb041b1db2dd33e514d4cfaa93869f6326eb6b966f969e38ceb": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "16": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "40": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 48
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 48
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 48
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "296": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "304": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "312": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "320": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "336": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "344": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "352": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 49
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "384": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "392": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "408": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "416": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "440": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "448": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "456": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "480": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "488": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "496": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "544": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "560": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "568": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "576": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "584": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      },
+      "600": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 50
+      }
+    },
+    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 809
+      }
+    },
+    "6219e97a12687fd139f8eb656f37e17a9560a04789d346128b727ca4d459fbeb": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "16": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "40": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 113
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 113
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 113
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 114
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 114
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 114
+      },
+      "160": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 114
+      },
+      "184": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 115
+      },
+      "200": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 115
+      },
+      "208": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 115
+      },
+      "216": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 115
+      },
+      "232": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "248": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "256": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "416": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "424": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "432": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "448": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "456": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "464": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "472": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 117
+      },
+      "488": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "496": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "520": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "528": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "544": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "560": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "568": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      },
+      "584": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 118
+      }
+    },
+    "697d296d60bb853c8a5953ccb37509ffd2007190eef1f98ecb48b2fafc7815d1": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 978
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 979
+      },
+      "16": {
+        "filename": "BankAccount.code",
+        "line": 980
+      },
+      "32": {
+        "filename": "BankAccount.code",
+        "line": 983
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 984
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 985
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 986
+      },
+      "232": {
+        "filename": "BankAccount.code",
+        "line": 987
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 988
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 989
+      },
+      "256": {
+        "filename": "BankAccount.code",
+        "line": 990
+      },
+      "264": {
+        "filename": "BankAccount.code",
+        "line": 991
+      },
+      "272": {
+        "filename": "BankAccount.code",
+        "line": 992
+      },
+      "288": {
+        "filename": "BankAccount.code",
+        "line": 994
+      },
+      "296": {
+        "filename": "BankAccount.code",
+        "line": 995
+      }
+    },
+    "6c86db608d0378a5a92ba25838a284d19258c5332c3a005a878041531ccba5f6": {
       "0": {
         "filename": "BankAccount.code",
         "line": 4
@@ -2682,404 +1887,1415 @@
         "filename": "BankAccount.code",
         "line": 12
       },
-      "88": {
+      "96": {
         "filename": "BankAccount.code",
         "line": 13
       },
-      "96": {
+      "112": {
         "filename": "BankAccount.code",
         "line": 14
       },
-      "112": {
+      "120": {
         "filename": "BankAccount.code",
         "line": 15
       },
       "128": {
-        "filename": "BankAccount.code",
-        "line": 16
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 40
       },
       "136": {
-        "filename": "BankAccount.code",
-        "line": 17
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 18
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 40
       },
       "152": {
-        "filename": "BankAccount.code",
-        "line": 19
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 41
       },
       "160": {
-        "filename": "BankAccount.code",
-        "line": 21
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 41
       },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 22
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 42
       },
-      "184": {
+      "192": {
         "filename": "BankAccount.code",
-        "line": 23
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 24
+        "line": 25
       },
       "208": {
         "filename": "BankAccount.code",
-        "line": 26
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 27
-      },
-      "232": {
-        "filename": "BankAccount.code",
         "line": 28
-      },
-      "240": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 40
-      },
-      "256": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 40
-      },
-      "272": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 41
-      },
-      "280": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 41
-      },
-      "296": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 42
-      },
-      "304": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 42
-      },
-      "320": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 43
-      },
-      "336": {
-        "filename": "BankAccount.code",
-        "line": 41
-      },
-      "352": {
-        "filename": "BankAccount.code",
-        "line": 44
       }
     },
-    "c9ebbf5c4d5a6fb38a75c94c27d6d2803ff756027c3db000331b706bbe48e16b": {
+    "6f5abc1be56c496f6aa9901c93bb5467a007820267aa85a68bf265374be8a3b9": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 333
+        "line": 844
       },
-      "8": {
+      "16": {
         "filename": "BankAccount.code",
-        "line": 334
+        "line": 845
       },
-      "24": {
+      "32": {
         "filename": "BankAccount.code",
-        "line": 335
+        "line": 846
       },
       "48": {
         "filename": "BankAccount.code",
-        "line": 336
+        "line": 847
       },
       "64": {
         "filename": "BankAccount.code",
-        "line": 337
+        "line": 848
       },
-      "72": {
+      "80": {
         "filename": "BankAccount.code",
-        "line": 338
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
+        "line": 849
       },
       "96": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
+        "filename": "BankAccount.code",
+        "line": 850
       },
       "112": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
+        "filename": "BankAccount.code",
+        "line": 851
       },
       "120": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
-      },
-      "128": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
+        "filename": "BankAccount.code",
+        "line": 852
       },
       "136": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
+        "filename": "BankAccount.code",
+        "line": 853
       },
       "152": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 83
-      },
-      "160": {
         "filename": "BankAccount.code",
-        "line": 352
+        "line": 854
       },
-      "176": {
+      "168": {
         "filename": "BankAccount.code",
-        "line": 355
+        "line": 855
       },
       "184": {
         "filename": "BankAccount.code",
-        "line": 356
+        "line": 856
       },
       "200": {
         "filename": "BankAccount.code",
-        "line": 357
+        "line": 857
       },
       "208": {
         "filename": "BankAccount.code",
-        "line": 358
+        "line": 858
       },
       "216": {
         "filename": "BankAccount.code",
-        "line": 359
+        "line": 859
       },
       "232": {
         "filename": "BankAccount.code",
-        "line": 360
+        "line": 860
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 861
       },
       "248": {
         "filename": "BankAccount.code",
-        "line": 361
+        "line": 862
       },
       "256": {
         "filename": "BankAccount.code",
-        "line": 362
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 363
+        "line": 863
       },
       "272": {
         "filename": "BankAccount.code",
-        "line": 364
+        "line": 864
+      },
+      "280": {
+        "filename": "BankAccount.code",
+        "line": 865
+      },
+      "288": {
+        "filename": "BankAccount.code",
+        "line": 866
       },
       "296": {
         "filename": "BankAccount.code",
-        "line": 365
+        "line": 867
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "81f882232fd0063cd649500e5887947fee4a5eec070d10539d2181a6dd97c7b8": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 414
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 415
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 416
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 417
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 418
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 419
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "152": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 95
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 437
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 440
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 441
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 444
+      }
+    },
+    "90f85f1df63feb7565c144fb24d2b994b8a039cf43e02dcc47411c4276e5af19": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 958
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 959
+      },
+      "16": {
+        "filename": "BankAccount.code",
+        "line": 960
+      },
+      "32": {
+        "filename": "BankAccount.code",
+        "line": 963
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 964
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 965
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 966
+      },
+      "232": {
+        "filename": "BankAccount.code",
+        "line": 967
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 968
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 969
+      },
+      "264": {
+        "filename": "BankAccount.code",
+        "line": 970
+      },
+      "272": {
+        "filename": "BankAccount.code",
+        "line": 971
+      },
+      "280": {
+        "filename": "BankAccount.code",
+        "line": 972
+      },
+      "296": {
+        "filename": "BankAccount.code",
+        "line": 974
       },
       "304": {
         "filename": "BankAccount.code",
-        "line": 366
+        "line": 975
+      }
+    },
+    "93d43548af397dbdf8a691f7ab4857ec76300ab933c2b5ef8f4fb6073b131e76": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 92
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 93
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 94
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 95
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 96
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 97
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 53
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 53
+      },
+      "112": {
+        "filename": "BankAccount.code",
+        "line": 104
+      },
+      "128": {
+        "filename": "BankAccount.code",
+        "line": 107
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 108
+      },
+      "152": {
+        "filename": "BankAccount.code",
+        "line": 111
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9847a71bd9a403872af5ad6ef612b780521de97d345526a4ed32bea94c99246a": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 30
+      },
+      "16": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 30
+      },
+      "32": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 30
+      },
+      "48": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 30
+      },
+      "72": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 35
+      },
+      "112": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 96
+      },
+      "160": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 96
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 96
+      },
+      "184": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 97
+      },
+      "200": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 97
+      },
+      "208": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 97
+      },
+      "216": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 97
+      },
+      "240": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 98
+      },
+      "256": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 98
+      },
+      "264": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 98
+      },
+      "272": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 98
+      },
+      "288": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 98
+      },
+      "304": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "320": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "328": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "336": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "344": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "368": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "376": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "384": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "408": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "416": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "424": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "472": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "488": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "496": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "504": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "512": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "528": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 99
+      },
+      "544": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "560": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "568": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "728": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "736": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "744": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "760": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "768": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "776": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      },
+      "784": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 100
+      }
+    },
+    "a3b5eb4a7c44c717ab05ee0de189a553359231603e17c9d6aa044b44570c2dcd": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 210
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 211
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 212
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 213
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 214
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 215
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 68
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 68
+      },
+      "112": {
+        "filename": "BankAccount.code",
+        "line": 222
+      },
+      "128": {
+        "filename": "BankAccount.code",
+        "line": 225
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 226
+      },
+      "152": {
+        "filename": "BankAccount.code",
+        "line": 229
+      }
+    },
+    "a8beb085bcac284bfbeeffe9ec19720e8c2983668585e7ea04682d13848cc8f6": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 886
+      },
+      "16": {
+        "filename": "BankAccount.code",
+        "line": 887
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 888
+      },
+      "40": {
+        "filename": "BankAccount.code",
+        "line": 889
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 890
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 891
+      },
+      "80": {
+        "filename": "BankAccount.code",
+        "line": 892
+      },
+      "88": {
+        "filename": "BankAccount.code",
+        "line": 893
+      },
+      "104": {
+        "filename": "BankAccount.code",
+        "line": 894
+      },
+      "120": {
+        "filename": "BankAccount.code",
+        "line": 895
+      },
+      "128": {
+        "filename": "BankAccount.code",
+        "line": 896
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 897
+      },
+      "168": {
+        "filename": "BankAccount.code",
+        "line": 898
+      },
+      "176": {
+        "filename": "BankAccount.code",
+        "line": 899
+      },
+      "184": {
+        "filename": "BankAccount.code",
+        "line": 900
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 901
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 905
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 906
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 907
+      },
+      "264": {
+        "filename": "BankAccount.code",
+        "line": 908
+      },
+      "272": {
+        "filename": "BankAccount.code",
+        "line": 909
+      },
+      "288": {
+        "filename": "BankAccount.code",
+        "line": 913
+      },
+      "296": {
+        "filename": "BankAccount.code",
+        "line": 914
       },
       "312": {
         "filename": "BankAccount.code",
-        "line": 367
+        "line": 917
+      }
+    },
+    "a909297446886dc60f582316545f289834420de6ac3c13064b38d853ac910a09": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 1109
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 1110
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 1111
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 1112
+      },
+      "80": {
+        "filename": "BankAccount.code",
+        "line": 1115
+      },
+      "88": {
+        "filename": "BankAccount.code",
+        "line": 1116
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 1117
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 1118
+      },
+      "160": {
+        "filename": "BankAccount.code",
+        "line": 1121
+      },
+      "168": {
+        "filename": "BankAccount.code",
+        "line": 1122
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 1123
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 1124
+      }
+    },
+    "b698bd625a4d34f9950e8673ee7f71b26866f61cd493982d144513dbeb023143": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 268
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 269
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 270
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 271
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 272
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 273
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 76
+      },
+      "96": {
+        "filename": "BankAccount.code",
+        "line": 279
+      },
+      "112": {
+        "filename": "BankAccount.code",
+        "line": 282
+      },
+      "120": {
+        "filename": "BankAccount.code",
+        "line": 283
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 286
+      }
+    },
+    "b6a7f3a89963f1e84391f0e5f78528d20d64853a772a12aec6ffb41f2c6bcfc1": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 579
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 580
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 581
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 582
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 583
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 584
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "152": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 112
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 602
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 605
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 606
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 609
+      }
+    },
+    "b8831892616115e4275d812b6f889479b4f85ffaf09339c71d099fc3643edab6": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 921
+      },
+      "16": {
+        "filename": "BankAccount.code",
+        "line": 922
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 923
+      },
+      "40": {
+        "filename": "BankAccount.code",
+        "line": 924
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 925
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 926
+      },
+      "80": {
+        "filename": "BankAccount.code",
+        "line": 929
+      },
+      "96": {
+        "filename": "BankAccount.code",
+        "line": 930
+      },
+      "104": {
+        "filename": "BankAccount.code",
+        "line": 931
+      },
+      "120": {
+        "filename": "BankAccount.code",
+        "line": 934
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 935
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 936
+      },
+      "152": {
+        "filename": "BankAccount.code",
+        "line": 937
+      },
+      "168": {
+        "filename": "BankAccount.code",
+        "line": 938
+      },
+      "184": {
+        "filename": "BankAccount.code",
+        "line": 939
+      },
+      "192": {
+        "filename": "BankAccount.code",
+        "line": 940
+      },
+      "208": {
+        "filename": "BankAccount.code",
+        "line": 941
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 942
+      },
+      "232": {
+        "filename": "BankAccount.code",
+        "line": 943
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 944
+      },
+      "264": {
+        "filename": "BankAccount.code",
+        "line": 946
+      },
+      "272": {
+        "filename": "BankAccount.code",
+        "line": 947
+      },
+      "288": {
+        "filename": "BankAccount.code",
+        "line": 948
+      },
+      "296": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "312": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "320": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "328": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "344": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "352": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "368": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "392": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "400": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "456": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "488": {
+        "filename": "BankAccount.code",
+        "line": 950
+      },
+      "504": {
+        "filename": "BankAccount.code",
+        "line": 951
+      },
+      "512": {
+        "filename": "BankAccount.code",
+        "line": 952
+      },
+      "528": {
+        "filename": "BankAccount.code",
+        "line": 955
+      }
+    },
+    "b988d9a819c784953830facae112a881bb4f593d320c01010178a408fc92a4b1": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 1051
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 1052
+      },
+      "56": {
+        "filename": "BankAccount.code",
+        "line": 1053
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 1054
+      },
+      "80": {
+        "filename": "BankAccount.code",
+        "line": 1057
+      },
+      "88": {
+        "filename": "BankAccount.code",
+        "line": 1058
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 1059
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 1060
+      },
+      "160": {
+        "filename": "BankAccount.code",
+        "line": 1063
+      },
+      "168": {
+        "filename": "BankAccount.code",
+        "line": 1064
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 1065
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 1066
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 1069
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 1070
+      },
+      "296": {
+        "filename": "BankAccount.code",
+        "line": 1071
+      },
+      "304": {
+        "filename": "BankAccount.code",
+        "line": 1072
+      }
+    },
+    "c26f3f34e3a0aa422948a958fde0dbcff4b745f9b5db7950afbcb3868c9d4fdb": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 719
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 720
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 721
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 722
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 723
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 724
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 129
+      },
+      "96": {
+        "filename": "BankAccount.code",
+        "line": 730
+      },
+      "112": {
+        "filename": "BankAccount.code",
+        "line": 733
+      },
+      "120": {
+        "filename": "BankAccount.code",
+        "line": 734
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 735
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 736
+      },
+      "152": {
+        "filename": "BankAccount.code",
+        "line": 737
+      },
+      "168": {
+        "filename": "BankAccount.code",
+        "line": 738
+      },
+      "184": {
+        "filename": "BankAccount.code",
+        "line": 739
+      },
+      "192": {
+        "filename": "BankAccount.code",
+        "line": 740
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 741
+      },
+      "208": {
+        "filename": "BankAccount.code",
+        "line": 742
+      },
+      "232": {
+        "filename": "BankAccount.code",
+        "line": 743
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 744
+      },
+      "288": {
+        "filename": "BankAccount.code",
+        "line": 745
+      },
+      "312": {
+        "filename": "BankAccount.code",
+        "line": 746
+      },
+      "328": {
+        "filename": "BankAccount.code",
+        "line": 747
       },
       "336": {
         "filename": "BankAccount.code",
-        "line": 368
+        "line": 748
       },
       "344": {
         "filename": "BankAccount.code",
-        "line": 369
+        "line": 749
       },
-      "352": {
+      "360": {
         "filename": "BankAccount.code",
-        "line": 370
+        "line": 751
+      },
+      "368": {
+        "filename": "BankAccount.code",
+        "line": 752
+      },
+      "376": {
+        "filename": "BankAccount.code",
+        "line": 754
+      },
+      "384": {
+        "filename": "BankAccount.code",
+        "line": 755
       },
       "400": {
         "filename": "BankAccount.code",
-        "line": 371
-      },
-      "408": {
+        "line": 758
+      }
+    },
+    "c4f88da97f98f014cbdd96148404ea0ff102f5d894d72ea15ab5678fdcab50a1": {
+      "0": {
         "filename": "BankAccount.code",
-        "line": 372
+        "line": 798
       },
-      "416": {
+      "8": {
         "filename": "BankAccount.code",
-        "line": 373
+        "line": 799
       },
-      "424": {
+      "24": {
         "filename": "BankAccount.code",
-        "line": 374
+        "line": 800
       },
-      "432": {
+      "32": {
         "filename": "BankAccount.code",
-        "line": 375
+        "line": 801
       },
-      "448": {
+      "48": {
         "filename": "BankAccount.code",
-        "line": 377
+        "line": 802
       },
-      "456": {
+      "56": {
         "filename": "BankAccount.code",
-        "line": 378
+        "line": 803
       },
-      "464": {
+      "64": {
         "filename": "BankAccount.code",
-        "line": 380
+        "line": 804
       },
-      "472": {
+      "72": {
         "filename": "BankAccount.code",
-        "line": 381
+        "line": 805
       },
-      "480": {
+      "88": {
         "filename": "BankAccount.code",
-        "line": 382
+        "line": 806
       },
-      "496": {
+      "104": {
         "filename": "BankAccount.code",
-        "line": 385
+        "line": 807
+      },
+      "120": {
+        "filename": "BankAccount.code",
+        "line": 812
+      },
+      "128": {
+        "filename": "BankAccount.code",
+        "line": 813
+      },
+      "136": {
+        "filename": "BankAccount.code",
+        "line": 814
+      },
+      "144": {
+        "filename": "BankAccount.code",
+        "line": 815
+      },
+      "160": {
+        "filename": "BankAccount.code",
+        "line": 816
+      },
+      "176": {
+        "filename": "BankAccount.code",
+        "line": 817
+      },
+      "192": {
+        "filename": "BankAccount.code",
+        "line": 822
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 823
+      },
+      "208": {
+        "filename": "BankAccount.code",
+        "line": 825
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 826
+      },
+      "232": {
+        "filename": "BankAccount.code",
+        "line": 827
+      },
+      "248": {
+        "filename": "BankAccount.code",
+        "line": 828
+      },
+      "264": {
+        "filename": "BankAccount.code",
+        "line": 829
+      },
+      "280": {
+        "filename": "BankAccount.code",
+        "line": 830
+      },
+      "296": {
+        "filename": "BankAccount.code",
+        "line": 831
+      },
+      "312": {
+        "filename": "BankAccount.code",
+        "line": 832
+      },
+      "328": {
+        "filename": "BankAccount.code",
+        "line": 833
+      },
+      "344": {
+        "filename": "BankAccount.code",
+        "line": 834
+      },
+      "368": {
+        "filename": "BankAccount.code",
+        "line": 835
+      },
+      "384": {
+        "filename": "BankAccount.code",
+        "line": 836
+      },
+      "392": {
+        "filename": "BankAccount.code",
+        "line": 837
       }
     },
     "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
       "0": {
         "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 133
+        "line": 130
       }
     },
-    "ccc41e635f51a7135d55afa4dfeb0bf5692206a36aed61541dafa46b46de9637": {
+    "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 1038
-      },
-      "8": {
+        "line": 808
+      }
+    },
+    "e4734f14d8f437f8c17f2d07857710a840fa34c62a6caee3acc8c6f624bbe5a0": {
+      "0": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 78
+      }
+    },
+    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+      "0": {
         "filename": "BankAccount.code",
-        "line": 1039
+        "line": 870
       },
       "16": {
         "filename": "BankAccount.code",
-        "line": 1040
+        "line": 871
       },
-      "32": {
+      "24": {
         "filename": "BankAccount.code",
-        "line": 1043
+        "line": 872
       },
-      "48": {
+      "40": {
         "filename": "BankAccount.code",
-        "line": 1044
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 1045
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 1046
-      },
-      "232": {
-        "filename": "BankAccount.code",
-        "line": 1047
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 1048
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 1049
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 1050
-      },
-      "272": {
-        "filename": "BankAccount.code",
-        "line": 1051
-      },
-      "280": {
-        "filename": "BankAccount.code",
-        "line": 1052
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 1054
-      },
-      "304": {
-        "filename": "BankAccount.code",
-        "line": 1055
-      }
-    },
-    "d31d7d0dca5fb6c832eb3b046574b110bf996552dc04dc50455610a67b7d570d": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 1058
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 1059
+        "line": 873
       },
       "56": {
         "filename": "BankAccount.code",
-        "line": 1060
+        "line": 874
       },
       "64": {
         "filename": "BankAccount.code",
-        "line": 1061
+        "line": 875
       },
       "80": {
         "filename": "BankAccount.code",
-        "line": 1087
+        "line": 876
       },
       "88": {
         "filename": "BankAccount.code",
-        "line": 1088
+        "line": 877
+      },
+      "96": {
+        "filename": "BankAccount.code",
+        "line": 878
+      },
+      "112": {
+        "filename": "BankAccount.code",
+        "line": 879
+      },
+      "128": {
+        "filename": "BankAccount.code",
+        "line": 880
       },
       "136": {
         "filename": "BankAccount.code",
-        "line": 1089
+        "line": 881
       },
       "144": {
         "filename": "BankAccount.code",
-        "line": 1090
-      },
-      "160": {
-        "filename": "BankAccount.code",
-        "line": 1116
-      },
-      "168": {
-        "filename": "BankAccount.code",
-        "line": 1117
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 1118
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 1119
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 1145
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 1146
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 1147
-      },
-      "304": {
-        "filename": "BankAccount.code",
-        "line": 1148
+        "line": 882
       }
     },
-    "d55611d32da348ed39fd1e7b1b13047ddb06a6114f6c124f9ecca0b2262c7cc2": {
+    "ef6de4693fed4f0181292e1f45ff627132a2dd06a9df443bdc084d1f06adbf16": {
       "0": {
         "filename": "BankAccount.code",
         "line": 1018
@@ -3088,519 +3304,157 @@
         "filename": "BankAccount.code",
         "line": 1019
       },
-      "16": {
+      "56": {
         "filename": "BankAccount.code",
         "line": 1020
       },
-      "32": {
-        "filename": "BankAccount.code",
-        "line": 1023
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 1024
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 1025
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 1026
-      },
-      "232": {
-        "filename": "BankAccount.code",
-        "line": 1027
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 1028
-      },
-      "248": {
-        "filename": "BankAccount.code",
-        "line": 1029
-      },
-      "256": {
-        "filename": "BankAccount.code",
-        "line": 1030
-      },
-      "264": {
-        "filename": "BankAccount.code",
-        "line": 1031
-      },
-      "272": {
-        "filename": "BankAccount.code",
-        "line": 1032
-      },
-      "288": {
-        "filename": "BankAccount.code",
-        "line": 1034
-      },
-      "296": {
-        "filename": "BankAccount.code",
-        "line": 1035
-      }
-    },
-    "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 819
-      }
-    },
-    "d68cd23cc724899ead8817782813440fdcb9e5c61c5c0905d0a4257f69bbff26": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 160
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 161
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 162
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 163
-      },
       "64": {
         "filename": "BankAccount.code",
-        "line": 164
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 165
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 61
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 61
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 172
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 175
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 176
-      },
-      "152": {
-        "filename": "BankAccount.code",
-        "line": 179
-      }
-    },
-    "d7d920f12fdf087fe4f8fb662ae2aa74c0de9534fcfdf631036788ac0a51d941": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 125
-      },
-      "48": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 125
-      },
-      "56": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 125
-      },
-      "72": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 126
-      },
-      "88": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 126
-      },
-      "104": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 126
-      },
-      "120": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 126
-      },
-      "144": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 127
-      },
-      "152": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 127
-      },
-      "168": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "184": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "344": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "352": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "360": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "368": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "384": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "392": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "400": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 128
-      },
-      "416": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "432": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "440": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "464": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "472": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "488": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "504": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "512": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      },
-      "528": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 129
-      }
-    },
-    "e4734f14d8f437f8c17f2d07857710a840fa34c62a6caee3acc8c6f624bbe5a0": {
-      "0": {
-        "filename": "../contracts/BanKUser/BankAccount.tsol",
-        "line": 79
-      }
-    },
-    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 890
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 891
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 892
-      },
-      "40": {
-        "filename": "BankAccount.code",
-        "line": 893
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 894
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 895
+        "line": 1021
       },
       "80": {
         "filename": "BankAccount.code",
-        "line": 896
+        "line": 1047
       },
       "88": {
         "filename": "BankAccount.code",
-        "line": 897
-      },
-      "96": {
-        "filename": "BankAccount.code",
-        "line": 898
-      },
-      "112": {
-        "filename": "BankAccount.code",
-        "line": 899
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 900
+        "line": 1048
       },
       "136": {
         "filename": "BankAccount.code",
-        "line": 901
+        "line": 1049
       },
       "144": {
         "filename": "BankAccount.code",
-        "line": 902
-      }
-    },
-    "e80d5d2fe353a7a9a6b23e33db73f417e1e359cfd1e3f36476712f19193c6a30": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 1120
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 1121
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 1122
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 1123
-      },
-      "80": {
-        "filename": "BankAccount.code",
-        "line": 1126
-      },
-      "88": {
-        "filename": "BankAccount.code",
-        "line": 1127
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 1128
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 1129
+        "line": 1050
       },
       "160": {
         "filename": "BankAccount.code",
-        "line": 1132
+        "line": 1076
       },
       "168": {
         "filename": "BankAccount.code",
-        "line": 1133
+        "line": 1077
       },
       "216": {
         "filename": "BankAccount.code",
-        "line": 1134
+        "line": 1078
       },
       "224": {
         "filename": "BankAccount.code",
-        "line": 1135
+        "line": 1079
       },
       "240": {
         "filename": "BankAccount.code",
-        "line": 1138
+        "line": 1105
       },
       "248": {
         "filename": "BankAccount.code",
-        "line": 1139
+        "line": 1106
       },
       "296": {
         "filename": "BankAccount.code",
-        "line": 1140
+        "line": 1107
       },
       "304": {
         "filename": "BankAccount.code",
-        "line": 1141
-      }
-    },
-    "ecc903e2b58e453ea799ba14a712bc79fba08be630eff97e600526cc9c163329": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 809
-      },
-      "8": {
-        "filename": "BankAccount.code",
-        "line": 810
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 811
-      },
-      "32": {
-        "filename": "BankAccount.code",
-        "line": 812
-      },
-      "48": {
-        "filename": "BankAccount.code",
-        "line": 813
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 814
-      },
-      "64": {
-        "filename": "BankAccount.code",
-        "line": 815
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 816
-      },
-      "88": {
-        "filename": "BankAccount.code",
-        "line": 817
-      },
-      "104": {
-        "filename": "BankAccount.code",
-        "line": 818
-      },
-      "120": {
-        "filename": "BankAccount.code",
-        "line": 823
-      },
-      "128": {
-        "filename": "BankAccount.code",
-        "line": 824
-      },
-      "136": {
-        "filename": "BankAccount.code",
-        "line": 825
-      },
-      "144": {
-        "filename": "BankAccount.code",
-        "line": 826
-      },
-      "160": {
-        "filename": "BankAccount.code",
-        "line": 827
-      },
-      "176": {
-        "filename": "BankAccount.code",
-        "line": 828
-      },
-      "192": {
-        "filename": "BankAccount.code",
-        "line": 833
-      },
-      "200": {
-        "filename": "BankAccount.code",
-        "line": 834
-      },
-      "208": {
-        "filename": "BankAccount.code",
-        "line": 837
-      },
-      "216": {
-        "filename": "BankAccount.code",
-        "line": 839
-      },
-      "224": {
-        "filename": "BankAccount.code",
-        "line": 840
-      },
-      "240": {
-        "filename": "BankAccount.code",
-        "line": 841
-      },
-      "256": {
-        "filename": "BankAccount.code",
-        "line": 842
-      },
-      "272": {
-        "filename": "BankAccount.code",
-        "line": 843
-      },
-      "288": {
-        "filename": "BankAccount.code",
-        "line": 844
-      },
-      "304": {
-        "filename": "BankAccount.code",
-        "line": 845
-      },
-      "320": {
-        "filename": "BankAccount.code",
-        "line": 846
-      },
-      "336": {
-        "filename": "BankAccount.code",
-        "line": 847
-      },
-      "352": {
-        "filename": "BankAccount.code",
-        "line": 848
-      },
-      "368": {
-        "filename": "BankAccount.code",
-        "line": 849
-      },
-      "392": {
-        "filename": "BankAccount.code",
-        "line": 850
-      },
-      "408": {
-        "filename": "BankAccount.code",
-        "line": 851
-      },
-      "416": {
-        "filename": "BankAccount.code",
-        "line": 852
-      }
-    },
-    "f244df5bab0920c842850e5461208288e5eb44a32931f4e94e5d5e02a114190f": {
-      "0": {
-        "filename": "BankAccount.code",
-        "line": 804
-      },
-      "16": {
-        "filename": "BankAccount.code",
-        "line": 805
-      },
-      "24": {
-        "filename": "BankAccount.code",
-        "line": 806
-      },
-      "40": {
-        "filename": "BankAccount.code",
-        "line": 807
-      },
-      "56": {
-        "filename": "BankAccount.code",
-        "line": 808
-      },
-      "72": {
-        "filename": "BankAccount.code",
-        "line": 854
+        "line": 1108
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 922
+        "line": 902
       },
       "16": {
         "filename": "BankAccount.code",
-        "line": 923
+        "line": 903
+      }
+    },
+    "f9069d166b406f2b5834d4fab621abb225059d8436edc07bc1d7e3ecdfb933c4": {
+      "0": {
+        "filename": "BankAccount.code",
+        "line": 652
+      },
+      "8": {
+        "filename": "BankAccount.code",
+        "line": 653
+      },
+      "24": {
+        "filename": "BankAccount.code",
+        "line": 654
+      },
+      "48": {
+        "filename": "BankAccount.code",
+        "line": 655
+      },
+      "64": {
+        "filename": "BankAccount.code",
+        "line": 656
+      },
+      "72": {
+        "filename": "BankAccount.code",
+        "line": 657
+      },
+      "88": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "96": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "104": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "120": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "128": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "136": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "144": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "152": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "168": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "176": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "192": {
+        "filename": "../contracts/BanKUser/BankAccount.tsol",
+        "line": 121
+      },
+      "200": {
+        "filename": "BankAccount.code",
+        "line": 675
+      },
+      "216": {
+        "filename": "BankAccount.code",
+        "line": 678
+      },
+      "224": {
+        "filename": "BankAccount.code",
+        "line": 679
+      },
+      "240": {
+        "filename": "BankAccount.code",
+        "line": 682
       }
     }
   }

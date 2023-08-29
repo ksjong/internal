@@ -8,8 +8,7 @@
 			"inputs": [
 				{"name":"_initialBalance","type":"uint128"},
 				{"name":"_freezer","type":"bool"},
-				{"name":"_userContractCode","type":"cell"},
-				{"name":"_bankOwner","type":"address"}
+				{"name":"_userContractCode","type":"cell"}
 			],
 			"outputs": [
 			]
@@ -84,7 +83,7 @@
 			"name": "mintedMoney",
 			"inputs": [
 				{"name":"_money","type":"uint256"},
-				{"name":"_ownerAddress","type":"address"}
+				{"name":"_initialSender","type":"address"}
 			],
 			"outputs": [
 			]
@@ -92,7 +91,8 @@
 		{
 			"name": "freezerSet",
 			"inputs": [
-				{"name":"_freezer","type":"bool"}
+				{"name":"_freezer","type":"bool"},
+				{"name":"_initialSender","type":"address"}
 			],
 			"outputs": [
 			]
@@ -111,14 +111,6 @@
 			],
 			"outputs": [
 				{"name":"money","type":"uint256"}
-			]
-		},
-		{
-			"name": "bankOwner",
-			"inputs": [
-			],
-			"outputs": [
-				{"name":"bankOwner","type":"address"}
 			]
 		},
 		{
@@ -229,7 +221,6 @@
 		{"name":"money","type":"uint256"},
 		{"name":"bankAddress","type":"address"},
 		{"name":"owner","type":"address"},
-		{"name":"bankOwner","type":"address"},
 		{"name":"userContractCode","type":"cell"},
 		{"name":"freezer","type":"bool"}
 	]
