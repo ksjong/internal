@@ -83,7 +83,8 @@
 			"name": "mintedMoney",
 			"inputs": [
 				{"name":"_money","type":"uint256"},
-				{"name":"_initialSender","type":"address"}
+				{"name":"_initialSender","type":"address"},
+				{"name":"_owner","type":"address"}
 			],
 			"outputs": [
 			]

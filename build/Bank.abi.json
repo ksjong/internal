@@ -169,6 +169,14 @@
 			],
 			"outputs": [
 			]
+		},
+		{
+			"name": "test",
+			"inputs": [
+				{"name":"tests","type":"string"}
+			],
+			"outputs": [
+			]
 		}
 	],
 	"fields": [

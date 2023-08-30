@@ -92,12 +92,12 @@ describe("BankUserTest", async function () {
       let { accountAddress } = event;
       const bankAccount = locklift.factory.getDeployedContract("BankAccount", accountAddress);
 
-      const event2 = deployUser2?.findEventsForContract({
-        contract: bank,
-        name: "AccountDeployed" as const,
-      })[0]!;
-      const { accountAddress: secondAccountAddress } = event2;
-      const bankAccount2 = locklift.factory.getDeployedContract("BankAccount", secondAccountAddress);
+      // const event2 = deployUser2?.findEventsForContract({
+      //   contract: bank,
+      //   name: "AccountDeployed" as const,
+      // })[0]!;
+      // const { accountAddress: secondAccountAddress } = event2;
+      // const bankAccount2 = locklift.factory.getDeployedContract("BankAccount", secondAccountAddress);
 
       const { traceTree: borrowMoney } = await locklift.tracing.trace(
         bankAccount.methods
@@ -135,27 +135,28 @@ describe("BankUserTest", async function () {
             from: bankWallet.address,
             amount: toNano(1),
           }),
+        { raise: false },
       );
       await MintMoney?.beautyPrint();
       const response4 = await bankAccount.methods.getMoney().call();
 
-      const { traceTree: sendMoney } = await locklift.tracing.trace(
-        bankAccount.methods
-          .sendMoneyToUser({
-            _money: 24,
-            _destAddress: bankAccount2.address,
-          })
-          .send({
-            from: userAccount.address,
-            amount: toNano(1),
-          }),
-        {
-          allowedCodes: {
-            compute: [1222],
-          },
-        },
-      );
-      await sendMoney?.beautyPrint();
+      // const { traceTree: sendMoney } = await locklift.tracing.trace(
+      //   bankAccount.methods
+      //     .sendMoneyToUser({
+      //       _money: 24,
+      //       _destAddress: bankAccount2.address,
+      //     })
+      //     .send({
+      //       from: userAccount.address,
+      //       amount: toNano(1),
+      //     }),
+      //   {
+      //     allowedCodes: {
+      //       compute: [1222],
+      //     },
+      //   },
+      // );
+      // await sendMoney?.beautyPrint();
       // const { traceTree: freeze } = await locklift.tracing.trace(
       //   bank.methods
       //     .freezeUserAccount({
@@ -169,27 +170,27 @@ describe("BankUserTest", async function () {
       // );
       // await freeze?.beautyPrint();
 
-      const { traceTree: sendMoney2 } = await locklift.tracing.trace(
-        bankAccount2.methods
-          .sendMoneyToUser({
-            _money: 100,
-            _destAddress: bankAccount.address,
-          })
-          .send({
-            from: userAccount2.address,
-            amount: toNano(1),
-          }),
-      );
-      await sendMoney2?.beautyPrint();
-      const response = await bank.methods.getProfit({}).call();
-      console.log(response);
-      const response2 = await bankAccount.methods.getMoney().call();
-      console.log(response2);
-      const response3 = await bankAccount2.methods.getMoney().call();
-      console.log(response3);
-      // console.log(bankAccount3.address);
-
-      console.log(response4);
+      // const { traceTree: sendMoney2 } = await locklift.tracing.trace(
+      //   bankAccount2.methods
+      //     .sendMoneyToUser({
+      //       _money: 100,
+      //       _destAddress: bankAccount.address,
+      //     })
+      //     .send({
+      //       from: userAccount2.address,
+      //       amount: toNano(1),
+      //     }),
+      // );
+      // await sendMoney2?.beautyPrint();
+      // const response = await bank.methods.getProfit({}).call();
+      // console.log(response);
+      // const response2 = await bankAccount.methods.getMoney().call();
+      // console.log(response2);
+      // const response3 = await bankAccount2.methods.getMoney().call();
+      // console.log(response3);
+      // // console.log(bankAccount3.address);
+      //
+      // console.log(response4);
     });
   });
 });

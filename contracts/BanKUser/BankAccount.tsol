@@ -117,15 +117,16 @@ contract BankAccount {
         msg.sender.transfer({value:0, flag:128});
     }
 
-    function mintedMoney(uint _money, address _initialSender) external onlyNotFreezer{
+    function mintedMoney(uint _money, address _initialSender, address _owner) external onlyNotFreezer{
 
 
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
 
 
+        console.log(format("money : {}", money));
         require(bankAddress==msg.sender, 2041);
         money += _money;
-
+        console.log(format("money : {}", money));
         emit MintedMoney(_money, msg.sender);
         _initialSender.transfer({value:0, flag:128});
     }

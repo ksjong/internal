@@ -24,6 +24,8 @@ contract Bank {
     event LoanTaken(address user, uint loanNum);
     event RepayfromUserSuccess(address user, uint TotalRepay);
 
+    event test(string tests);
+
     modifier onlyOwner {
         require(msg.sender == owner, 1001);
         _;
@@ -49,19 +51,35 @@ contract Bank {
     function deployAccountForUser(uint128 _initBalance, bool _freezer) external {
         require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        TvmCell stateInit = buildInitParams(msg.sender);
+        deployNewAccount(_initBalance, _freezer, msg.sender);
+//        TvmCell stateInit = buildInitParams(msg.sender);
+//
+//        address accountAddress = new BankAccount{
+//            stateInit: stateInit,
+//            code: userContractCode,
+//            value: 1 ever
+//
+//        }(_initBalance, _freezer, userContractCode );
+////        console.log(format("ADDRESS {}", workerAddress));
+////        console.log(format("CODE {}", userContractCode));
+//
+//        emit AccountDeployed(accountAddress, msg.sender);
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function deployNewAccount(uint128 _initBalance, bool _freezer,address _ownerAddress) internal {
+        TvmCell stateInit = buildInitParams(_ownerAddress);
 
         address accountAddress = new BankAccount{
-            stateInit: stateInit,
-            code: userContractCode,
-            value: 1 ever
+                stateInit: stateInit,
+                code: userContractCode,
+                value: 1 ever
 
-        }(_initBalance, _freezer, userContractCode );
-//        console.log(format("ADDRESS {}", workerAddress));
-//        console.log(format("CODE {}", userContractCode));
+            }(_initBalance, _freezer, userContractCode );
+        //        console.log(format("ADDRESS {}", workerAddress));
+        //        console.log(format("CODE {}", userContractCode));
 
-        emit AccountDeployed(accountAddress, msg.sender);
-        msg.sender.transfer({value:0, flag:128});
+        emit AccountDeployed(accountAddress, _ownerAddress);
     }
 
     function buildInitParams(address _accountAddress) internal returns (TvmCell){
@@ -130,7 +148,8 @@ contract Bank {
         console.log(format("ADDRESS {}", msg.sender));
 
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        BankAccount(getAddress(_accountAddress)).mintedMoney{value:0, flag:128}(_money, owner);
+        emit test("mint");
+        BankAccount(getAddress(_accountAddress)).mintedMoney{value:0, flag:128}(_money, owner, _accountAddress);
     }
 
     function getInterestRate() external view returns (uint) {
@@ -143,21 +162,16 @@ contract Bank {
 
     onBounce(TvmSlice slice) external {
         tvm.accept();
-        console.log(format("test1"));
+        console.log(format("in Bank onBounce"));
         TvmSlice newSlice = slice.loadRef().toSlice();
         uint32 functionId = newSlice.decode(uint32);
 
 
         if(functionId == tvm.functionId(BankAccount.mintedMoney)) {
-            (uint _money, address _initialSender) = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
-            Bank.deployAccountForUser(500, false);
-            console.log(format("test2"));
+            (uint _money, address _initalSender, address _owner) = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
+            Bank.deployNewAccount(200, false, _owner);
+            Bank(owner).mintAccount(_owner, _money);
+//            console.log(format("money {}", BankAccount()))
         }
-        // test
-        else if(functionId == tvm.functionId(BankAccount.loanReceived)) {
-            (uint _loanNum) = newSlice.decodeFunctionParams(BankAccount.loanReceived);
-
-        }
-
     }
 }
