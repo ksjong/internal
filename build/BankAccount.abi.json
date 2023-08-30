@@ -212,6 +212,30 @@
 			],
 			"outputs": [
 			]
+		},
+		{
+			"name": "CatchBounceSendMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CatchBounceReceiveMoney",
+			"inputs": [
+				{"name":"money","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CatchBounceTest",
+			"inputs": [
+				{"name":"test","type":"string"}
+			],
+			"outputs": [
+			]
 		}
 	],
 	"fields": [

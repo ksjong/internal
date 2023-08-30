@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma ever-solidity >= 0.62.0;
 import "Bank.tsol";
+
 import "locklift/src/console.tsol";
 
 contract BankAccount {
@@ -26,6 +27,10 @@ contract BankAccount {
     event ReceivedMoney(uint money, address sender);
     event SetFreezer(address sender, bool freezer);
     event MintedMoney(uint _money, address sender);
+
+    event CatchBounceSendMoney(uint money);
+    event CatchBounceReceiveMoney(uint money);
+    event CatchBounceTest(string test);
     modifier onlyOwner() {
         require(msg.sender == owner, 1011);
         _;
@@ -74,6 +79,7 @@ contract BankAccount {
     }
 
     function repayRejected() external {
+
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         emit RepayRejected("Reject!");
         owner.transfer({value:0, flag:128});
@@ -93,6 +99,7 @@ contract BankAccount {
     }
 
     function sendMoneyToUser(uint _money, address _destAddress) external onlyOwner onlyNotFreezer{
+//        revert(1222);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         require(money >= _money, 2000);
         money -= _money;
@@ -101,6 +108,7 @@ contract BankAccount {
     }
 
     function receivedMoneyFromUser(uint _money, address _ownerAddress) external onlyNotFreezer{
+//        revert(1222);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         require(msg.sender == getAddress(_ownerAddress), 2001);
         money+= _money;
@@ -110,7 +118,11 @@ contract BankAccount {
     }
 
     function mintedMoney(uint _money, address _initialSender) external onlyNotFreezer{
+
+
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+
+
         require(bankAddress==msg.sender, 2041);
         money += _money;
 
@@ -128,5 +140,23 @@ contract BankAccount {
 
     function getMoney() external view returns (uint){
         return money;
+    }
+
+    onBounce(TvmSlice slice) external {
+        tvm.accept();
+        console.log(format("test"));
+        TvmSlice newSlice = slice.loadRef().toSlice();
+        uint32 functionId = newSlice.decode(uint32);
+
+       if(functionId == tvm.functionId(BankAccount.receivedMoneyFromUser)) {
+            console.log(format("recevie Bounce"));
+            (uint _money, address _destAddress) = newSlice.decodeFunctionParams(BankAccount.sendMoneyToUser);
+           console.log(format("lost money : {}", _money));
+           console.log(format ("befor totalmoney: {}", money));
+           money += _money;
+//           uint totalMoney = getMoney();
+           console.log(format("total money : {}", money));
+           emit CatchBounceReceiveMoney(_money);
+        }
     }
 }

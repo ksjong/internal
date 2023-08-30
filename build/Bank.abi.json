@@ -68,7 +68,7 @@
 		{
 			"name": "mintAccount",
 			"inputs": [
-				{"name":"_userAddress","type":"address"},
+				{"name":"_accountAddress","type":"address"},
 				{"name":"_money","type":"uint256"}
 			],
 			"outputs": [

@@ -2,12 +2,16 @@
 import "locklift/src/console.tsol";
 pragma ever-solidity >= 0.62.0;
 
+
 import "BankAccount.tsol";
 
 contract Bank {
     address public owner;
     uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
     TvmCell static userContractCode;
+
+
+
 
 
     uint public interestRate;
@@ -78,6 +82,7 @@ contract Bank {
     }
 
     function loan(uint _loanNum, address _accountAddress) external onlyAccount(_accountAddress){
+//        revert(1244);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         require(isLoanAvailable, 1002);
         loanProcessing(_loanNum, _accountAddress);
@@ -121,9 +126,11 @@ contract Bank {
         BankAccount(_userAddress).freezerSet{value:0, flag:128}(_freezer, owner);
     }
 
-    function mintAccount(address _userAddress, uint _money) external onlyOwner {
+    function mintAccount(address _accountAddress, uint _money) external onlyOwner {
+        console.log(format("ADDRESS {}", msg.sender));
+
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        BankAccount(_userAddress).mintedMoney{value:0, flag:128}(_money, owner);
+        BankAccount(getAddress(_accountAddress)).mintedMoney{value:0, flag:128}(_money, owner);
     }
 
     function getInterestRate() external view returns (uint) {
@@ -132,5 +139,25 @@ contract Bank {
 
     function getProfit() external view returns (uint _profit) {
        _profit = bankProfit;
+    }
+
+    onBounce(TvmSlice slice) external {
+        tvm.accept();
+        console.log(format("test1"));
+        TvmSlice newSlice = slice.loadRef().toSlice();
+        uint32 functionId = newSlice.decode(uint32);
+
+
+        if(functionId == tvm.functionId(BankAccount.mintedMoney)) {
+            (uint _money, address _initialSender) = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
+            Bank.deployAccountForUser(500, false);
+            console.log(format("test2"));
+        }
+        // test
+        else if(functionId == tvm.functionId(BankAccount.loanReceived)) {
+            (uint _loanNum) = newSlice.decodeFunctionParams(BankAccount.loanReceived);
+
+        }
+
     }
 }
