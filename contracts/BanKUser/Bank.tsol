@@ -51,7 +51,7 @@ contract Bank {
     function deployAccountForUser(uint128 _initBalance, bool _freezer) external {
         require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        deployNewAccount(_initBalance, _freezer, msg.sender);
+        deployNewContract(_initBalance, _freezer, msg.sender);
 //        TvmCell stateInit = buildInitParams(msg.sender);
 //
 //        address accountAddress = new BankAccount{
@@ -67,7 +67,7 @@ contract Bank {
         msg.sender.transfer({value:0, flag:128});
     }
 
-    function deployNewAccount(uint128 _initBalance, bool _freezer,address _ownerAddress) internal {
+    function deployNewContract(uint128 _initBalance, bool _freezer,address _ownerAddress) internal {
         TvmCell stateInit = buildInitParams(_ownerAddress);
 
         address accountAddress = new BankAccount{
@@ -76,8 +76,6 @@ contract Bank {
                 value: 1 ever
 
             }(_initBalance, _freezer, userContractCode );
-        //        console.log(format("ADDRESS {}", workerAddress));
-        //        console.log(format("CODE {}", userContractCode));
 
         emit AccountDeployed(accountAddress, _ownerAddress);
     }
@@ -169,9 +167,8 @@ contract Bank {
 
         if(functionId == tvm.functionId(BankAccount.mintedMoney)) {
             (uint _money, address _initalSender, address _owner) = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
-            Bank.deployNewAccount(200, false, _owner);
+            Bank.deployNewContract(200, false, _owner);
             Bank(owner).mintAccount(_owner, _money);
-//            console.log(format("money {}", BankAccount()))
         }
     }
 }
