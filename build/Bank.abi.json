@@ -153,6 +153,14 @@
 			]
 		},
 		{
+			"name": "AddressReturn",
+			"inputs": [
+				{"name":"userAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "LoanTaken",
 			"inputs": [
 				{"name":"user","type":"address"},

@@ -21,6 +21,7 @@ contract Bank {
 
     address public bankAddress;
     event AccountDeployed(address accountAddress, address sender);
+    event AddressReturn(address userAddress);
     event LoanTaken(address user, uint loanNum);
     event RepayfromUserSuccess(address user, uint TotalRepay);
 
@@ -75,8 +76,7 @@ contract Bank {
                 code: userContractCode,
                 value: 1 ever
 
-            }(_initBalance, _freezer, userContractCode );
-
+        }(_initBalance, _freezer, userContractCode );
         emit AccountDeployed(accountAddress, _ownerAddress);
     }
 
@@ -93,7 +93,9 @@ contract Bank {
     }
 
     function getAddress(address _accountAddress) public returns(address) {
+        tvm.accept();
         TvmCell accountInitState = buildInitParams(_accountAddress);
+        emit AddressReturn(address(tvm.hash(accountInitState)));
         return address(tvm.hash(accountInitState));
     }
 
@@ -160,7 +162,7 @@ contract Bank {
     }
 
     onBounce(TvmSlice slice) external {
-        tvm.accept();
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         console.log(format("in Bank onBounce"));
         TvmSlice newSlice = slice.loadRef().toSlice();
         uint32 functionId = newSlice.decode(uint32);
@@ -168,6 +170,7 @@ contract Bank {
 
         if(functionId == tvm.functionId(BankAccount.mintedMoney)) {
             (uint _money, address _initalSender, address _owner) = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
+//            () = newSlice.decodeFunctionParams(BankAccount.minAccount);
             deployNewContract(200, false, _owner);
             BankAccount(getAddress(_owner)).mintedMoney{value:0, flag:128}(_money, owner, _owner);
 

@@ -85,6 +85,15 @@ describe("BankUserTest", async function () {
       // );
       // await deployUser2?.beautyPrint();
 
+      const { traceTree: getAdd } = await locklift.tracing.trace(
+        bank.methods
+          .getAddress({
+            _accountAddress: userAccount2.address,
+          })
+          .sendExternal({
+            publicKey: signer1.publicKey,
+          }),
+      );
       const event = deployUser?.findEventsForContract({
         contract: bank,
         name: "AccountDeployed" as const,
@@ -92,12 +101,12 @@ describe("BankUserTest", async function () {
       let { accountAddress } = event;
       const bankAccount = locklift.factory.getDeployedContract("BankAccount", accountAddress);
 
-      // const event2 = deployUser2?.findEventsForContract({
-      //   contract: bank,
-      //   name: "AccountDeployed" as const,
-      // })[0]!;
-      // const { accountAddress: secondAccountAddress } = event2;
-      // const bankAccount2 = locklift.factory.getDeployedContract("BankAccount", secondAccountAddress);
+      const event2 = getAdd?.findEventsForContract({
+        contract: bank,
+        name: "AddressReturn" as const,
+      })[0]!;
+      const { userAddress } = event2;
+      const bankAccount2 = locklift.factory.getDeployedContract("BankAccount", userAddress);
 
       const { traceTree: borrowMoney } = await locklift.tracing.trace(
         bankAccount.methods
@@ -133,7 +142,7 @@ describe("BankUserTest", async function () {
           })
           .send({
             from: bankWallet.address,
-            amount: toNano(1),
+            amount: toNano(10),
           }),
         {
           allowedCodes: {
@@ -143,24 +152,25 @@ describe("BankUserTest", async function () {
       );
       await MintMoney?.beautyPrint();
       const response4 = await bankAccount.methods.getMoney().call();
+      const addr = await bankAccount.methods.getAddress({ _accountAddress: userAccount2.address }).call();
+      const { traceTree: sendMoney } = await locklift.tracing.trace(
+        bankAccount.methods
+          .sendMoneyToUser({
+            _money: 24,
+            _destAddress: bankAccount2.address,
+          })
+          .send({
+            from: userAccount.address,
+            amount: toNano(1),
+          }),
+        {
+          allowedCodes: {
+            compute: [1222],
+          },
+        },
+      );
+      await sendMoney?.beautyPrint();
 
-      // const { traceTree: sendMoney } = await locklift.tracing.trace(
-      //   bankAccount.methods
-      //     .sendMoneyToUser({
-      //       _money: 24,
-      //       _destAddress: bankAccount2.address,
-      //     })
-      //     .send({
-      //       from: userAccount.address,
-      //       amount: toNano(1),
-      //     }),
-      //   {
-      //     allowedCodes: {
-      //       compute: [1222],
-      //     },
-      //   },
-      // );
-      // await sendMoney?.beautyPrint();
       // const { traceTree: freeze } = await locklift.tracing.trace(
       //   bank.methods
       //     .freezeUserAccount({
@@ -174,18 +184,18 @@ describe("BankUserTest", async function () {
       // );
       // await freeze?.beautyPrint();
 
-      // const { traceTree: sendMoney2 } = await locklift.tracing.trace(
-      //   bankAccount2.methods
-      //     .sendMoneyToUser({
-      //       _money: 100,
-      //       _destAddress: bankAccount.address,
-      //     })
-      //     .send({
-      //       from: userAccount2.address,
-      //       amount: toNano(1),
-      //     }),
-      // );
-      // await sendMoney2?.beautyPrint();
+      const { traceTree: sendMoney2 } = await locklift.tracing.trace(
+        bankAccount2.methods
+          .sendMoneyToUser({
+            _money: 100,
+            _destAddress: bankAccount.address,
+          })
+          .send({
+            from: userAccount2.address,
+            amount: toNano(1),
+          }),
+      );
+      await sendMoney2?.beautyPrint();
       // const response = await bank.methods.getProfit({}).call();
       // console.log(response);
       // const response2 = await bankAccount.methods.getMoney().call();
