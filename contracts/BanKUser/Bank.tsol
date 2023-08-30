@@ -146,6 +146,7 @@ contract Bank {
         console.log(format("ADDRESS {}", msg.sender));
 
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+//        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         emit test("mint");
         BankAccount(getAddress(_accountAddress)).mintedMoney{value:0, flag:128}(_money, owner, _accountAddress);
     }
@@ -167,8 +168,9 @@ contract Bank {
 
         if(functionId == tvm.functionId(BankAccount.mintedMoney)) {
             (uint _money, address _initalSender, address _owner) = newSlice.decodeFunctionParams(BankAccount.mintedMoney);
-            Bank.deployNewContract(200, false, _owner);
-            Bank(owner).mintAccount(_owner, _money);
+            deployNewContract(200, false, _owner);
+            BankAccount(getAddress(_owner)).mintedMoney{value:0, flag:128}(_money, owner, _owner);
+
         }
     }
 }

@@ -135,7 +135,11 @@ describe("BankUserTest", async function () {
             from: bankWallet.address,
             amount: toNano(1),
           }),
-        { raise: false },
+        {
+          allowedCodes: {
+            compute: [null],
+          },
+        },
       );
       await MintMoney?.beautyPrint();
       const response4 = await bankAccount.methods.getMoney().call();
