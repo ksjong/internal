@@ -106,8 +106,9 @@ describe("BankUserTest", async function () {
         name: "AddressReturn" as const,
       })[0]!;
       const { userAddress } = event2;
-      const bankAccount2 = locklift.factory.getDeployedContract("BankAccount", userAddress);
-
+      // const bankAccount2 = locklift.factory.getDeployedContract("BankAccount", userAddress);
+      const bankAccount2 = await bank.methods.getAddress({ _accountAddress: userAccount2.address }).call();
+      const bankAccount2Contract = await locklift.factory.getDeployedContract("BankAccount", bankAccount2.value0);
       const { traceTree: borrowMoney } = await locklift.tracing.trace(
         bankAccount.methods
           .borrowMoney({
@@ -157,7 +158,7 @@ describe("BankUserTest", async function () {
         bankAccount.methods
           .sendMoneyToUser({
             _money: 24,
-            _destAddress: bankAccount2.address,
+            _destAddress: bankAccount2.value0,
           })
           .send({
             from: userAccount.address,
@@ -185,7 +186,7 @@ describe("BankUserTest", async function () {
       // await freeze?.beautyPrint();
 
       const { traceTree: sendMoney2 } = await locklift.tracing.trace(
-        bankAccount2.methods
+        bankAccount2Contract.methods
           .sendMoneyToUser({
             _money: 100,
             _destAddress: bankAccount.address,
